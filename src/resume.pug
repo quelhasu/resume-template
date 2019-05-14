@@ -1,0 +1,58 @@
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+include personnal.pug
+
+html
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+        title Ugo QUELHAS
+        link(rel='stylesheet', href='/home/esilv/resume-markdown/build/resume.css',  type="text/css")
+        link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous")
+    main.resume-body
+        header.center
+            p(id="name")  
+                span.light= me.first_name
+                span.bold= me.last_name
+            h3.colorized(id="status")= me.status
+            p(id="address")= me.address
+
+            .personnal-info.flex-list
+                ul 
+                    each item in info
+                        +info-item(item)
+            
+            p(id="summary")= me.summary
+
+        
+        h1 
+            span.colorized EDU
+            | CATION
+        each item in education 
+            +content-item(item)
+
+        h1 
+            span.colorized EXP
+            | ERIENCE
+        each item in experience
+            +content-item(item)
+
+        h1
+            span.colorized PRO
+            | JECTS
+        .inline
+            each item in projects
+                +project-item(item)
+
+        .misc
+            .first-box
+                h1
+                    span.colorized LAN
+                    | GUAGES
+                each item in languages 
+                    +misc-item(item)
+            .second-box
+                h1
+                    span.colorized INT
+                    | EREST
+                each item in interest 
+                    +misc-item(item)

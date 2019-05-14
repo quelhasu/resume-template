@@ -1,0 +1,34 @@
+{
+  "name": "resume-markdown",
+  "version": "1.0.0",
+  "description": "<main class=\"markdown-body\">",
+  "main": "resume.pug",
+  "scripts": {
+    "setup": "npm install && gulp && echo \"\n✅ Installation finished, open index.html to see your website\"",
+    "dev": "gulp dev",
+    "demo": "cp -R ./build/* ./docs && sed -i '' 's/\\.\\{2\\}.build/\\./g' docs/index.html",
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quelhasu/resume-markdown.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quelhasu/resume-markdown/issues"
+  },
+  "homepage": "https://github.com/quelhasu/resume-markdown#readme",
+  "dependencies": {
+    "gulp": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-jsbeautifier": "^2.1.2",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "pug": "^2.0.3",
+    "pug-cli": "^1.0.0-alpha6",
+    "gulp-clean-css": "^3.9.4"
+  }
+}
