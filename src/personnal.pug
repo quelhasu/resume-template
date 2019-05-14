@@ -145,7 +145,10 @@ mixin content-list(item)
     =item.title 
     if item.skills
       |  (
-      b=item.skills
+      each content, index in item.skills
+        b= content
+        if index != item.skills.length - 1
+          =' , '  
       |)
 
 mixin content-item(item)
