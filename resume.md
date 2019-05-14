@@ -1,19 +1,27 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
 <main class="resume-body">
-<div class="banner"/>
 <header class="center">
-<p id="name">Ugo Quelhas</p>
-<h3 id="status" class="colorized">Etudiant 1ère année cycle ingénieur - ESILV</h3>
-<p id="address">84 route de Saint Nom, 19 le clos de l’étoile, 78620, L’Etang La Ville</p>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
-<div class="personnal-info">
+<p id="name"><span class="light">Ugo</span><span class="bold"> QUELHAS</span></p>
+<h3 id="status" class="colorized">Etudiant ingénieur informatique - ESILV</h3>
+<p id="address">L’Etang La Ville, 78620 - France</p>
 
-<p id="title" class="colorized">Stage ingénieur Informatique</p>
-<p id="subtitle" class="colorized">2 mois (1er juin 2018)</p>
+<div class="personnal-info flex-list">
+    <ul>
+        <li><i class="fas fa-mobile-alt"></i> (+33) 6 23 74 80 96</li>
+        <li><i class="fas fa-envelope"></i> ugo.quelhas@devinci.fr</li>
+        <li><i class="fab fa-github"></i> @quelhasu</li>
+        <li><i class="fab fa-linkedin"></i> quelhasugo</li>
+    </ul>
+</div>
+
+<!-- <p id="title" class="colorized">Stage ingénieur Informatique</p>
+<p id="subtitle" class="colorized">2 mois (1er juin 2018)</p> -->
 </header>
 
-# FORMATION
+# <span class="colorized">FOR</span>MATION
 
 <div class="info">
     <p class="colorized">La Defense - Courbevoie, France</p>
@@ -66,7 +74,7 @@
 
 * Informatique et Sciences du Numérique (**HTML, CSS, JS, Python**)
 
-# EXPERIENCE
+# <span class="colorized">EXP</span>ERIENCE
 
 <div class="info">
     <p class="colorized">La Defense - Courbevoie, France</p>
@@ -91,7 +99,7 @@
 
 * Préparation et encadrement (catégorie6-9ans), stages hebdomadaires (toutes catégories)
 
-# PROJETS
+# <span class="colorized">PRO</span>JETS
 
 <div class="inline">
 
@@ -116,7 +124,7 @@ Projet personnel de création d’un site internet d’actualités (**HTML, CS
 <div class="misc ">
 <div class="first-box">
 
-# LANGUES
+# <span class="colorized">LAN</span>GUES
 
 **Anglais**: Courant
 **Espagnol**: Scolaire
@@ -125,7 +133,7 @@ Projet personnel de création d’un site internet d’actualités (**HTML, CS
 
 <div class="second-box">
 
-# CENTRES D’INTÉRÊTS
+# <span class="colorized">CENT</span>RES D’INTÉRÊTS
 
 **Musique**: Piano (10 ans), création musicale via MAO
 **Sport**: Football (club ESESN), tennis

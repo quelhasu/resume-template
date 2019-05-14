@@ -1,6 +1,6 @@
 :root {
     --primary: #E57373;
-    --name: 20pt;
+    --name: 30pt;
     --h1: 13pt;
     --h2: 10pt;
     --h3: 8pt;
@@ -8,6 +8,7 @@
 }
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,800');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
 
 @media print {
     .resume-body {
@@ -16,8 +17,12 @@
     }
 }
 
+body > .markdown-preview {
+    padding-top: 0 !important;
+}
+
 .resume-body {
-    font-family: 'Open Sans', sans-serif !important;
+    font-family: 'Roboto', sans-serif !important;
     height: 100%;
 }
 
@@ -31,18 +36,28 @@
 }
 
 .resume-body #status {
-    margin: 5px !important;
+    margin: -6px 0 4px 0;
+    font-weight: 300;
 }
 
 .resume-body #address {
-    color: grey;
+    color: #b1b1b1;
     margin: 1%;
+    font-style: italic;
 }
 
 .resume-body #name {
     margin-top: 0;
     margin-bottom: 0;
     font-size: var(--name);
+
+    .light{
+        font-weight: lighter;
+    }
+
+    .bold{
+        font-weight: bold;
+    }
 }
 
 .resume-body .colorized {
@@ -180,4 +195,32 @@
 .resume-body .second-box {
     flex: 50%;
     padding-left: 5%;
+}
+
+.resume-body .flex-list {
+    position: relative;
+    overflow: hidden;
+    width: 70%;
+    margin: auto;
+}
+.resume-body .flex-list ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: -1px;
+    list-style: none;
+}
+.resume-body .flex-list li {
+    flex-grow: 1;
+    flex-basis: auto;
+    margin: .25em 0;
+    padding: 0 1em;
+    text-align: center;
+    border-left: 1px solid #ccc;
+    background-color: #fff;
+
+    &:first-child{
+        border: 0;
+    }
 }
