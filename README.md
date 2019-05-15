@@ -1,23 +1,36 @@
-<main class="markdown-body">
-
-# Markdown Resume
-> Make your resume with markdown language
+# Pug Resume Template
+> Resume template with pug
 
 ## Example
-![Resume example](resume.png)
+![Resume example](CV_Ugo_QUELHAS.png)
 
 ## Usage
-### Import
-- Install [Markdown Enhanced Preview](https://shd101wyy.github.io/markdown-preview-enhanced/#/) on Atom or Visual Studio Code.
-- Import the _resume.less_ file in the [Customize CSS](https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css) part of the plugin :
-`@import url('../path-to-the-directory/resume-markdown/resume.less');`
+Install all dependencies and run gulp:
+```bash
+npm run setup
+```
 
-### Customization
-Change the color, font-size etc. with the CSS var.
+Build pug file and create html file:
+```bash
+npm run build
+```
+
+Development
+```bash
+npm run dev
+```
+
+## Customization
+
+### Content
+Modify `locales/*` files to change the resume content.
+
+### Stylesheet
+Change the color, font-size etc. with the CSS var. in `src/style/resume.less` file:
 - `primary`: primary color
+- `color`: text color
 - `name` : name
 - `h1`
 - `h2`
 - `h3`
 - `main-font-size`: size of all text
-</main>
