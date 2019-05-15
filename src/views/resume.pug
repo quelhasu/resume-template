@@ -23,17 +23,26 @@ html
                         +info-item(item)
             
             p(id="summary")= $t.me.summary
-        h1 
-            span.colorized EDU
-            | CATION
-        each item in $t.education 
-            +content-item(item)
+
+        if $localeName == "fr_FR"
+            h1 
+                span.colorized EDU
+                | CATION
+            each item in $t.education 
+                +content-item(item)
 
         h1 
             span.colorized EXP
-            | ERIENCE
+            | ERIENCES
         each item in $t.experience
             +content-item(item)
+
+        if $localeName == "en_EN"
+            h1 
+                span.colorized EDU
+                | CATION
+            each item in $t.education 
+                +content-item(item)
 
         h1
             span.colorized PRO
@@ -51,7 +60,7 @@ html
                     +misc-item(item)
             .second-box
                 h1
-                    span.colorized INT
-                    | EREST
+                    span.colorized HOB
+                    | BIES
                 each item in $t.interest 
                     +misc-item(item)

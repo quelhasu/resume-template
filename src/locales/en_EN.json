@@ -5,7 +5,7 @@
     "last_name": "QUELHAS",
     "status": "IT Student at the ESILV",
     "address": "L'Etang La Ville, 78620 - France",
-    "summary": "Engineering student in Data Science in fourth-yearengineer school at The Leonard de Vinci Engineering School (degree in June 2020). Curious, dynamic, open-minded and autonomous, I am very motivated by new technologies and in artificial intelligence in cooperation with humans.One of the challenges is to meet human needs through data analysis without putting the human aside. I would like to be part of this revolution."
+    "summary": "French engineering student in Data Science in fourth-year engineer school at The Leonard de Vinci Engineering School (degree in June 2020). Curious, dynamic, open-minded and autonomous, I am very motivated by new technologies and in artificial intelligence in cooperation with humans. One of the challenges is to meet human needs through data analysis without putting the human aside. I would like to be part of this revolution."
   },
   "info": [
     {
@@ -34,7 +34,7 @@
   ],
   "education": [
     {
-      "location": "La Defense - Courbevoie, France",
+      "location": "La Defense - Paris, France",
       "year": "2017 - 2020",
       "title": "ESILV (Leonardo da Vinci Engineering School)",
       "type": "Engineering",
@@ -74,7 +74,7 @@
       "location": "Marly-le-Roi, France",
       "year": "2011 - 2015",
       "title": "Louis de Broglie High School",
-      "type": "Terminale S, ISN Specialty, Music Option",
+      "type": "French A-Levels, Scientific, Computer-Science Speciality, Music Option",
       "list": [
         { "title": "Information Technology and Digital Sciences", "skills": ["HTML", "CSS", "JS", "Python"] }
       ]
@@ -94,10 +94,10 @@
       "location": "L'Etang-la-Ville, France",
       "year": "2014 - 2017",
       "title": "ESESN (Entente Sportive Etang Saint-Nom)",
-      "type": "SPORTS EDUCATOR (Soccer).",
+      "type": "SPORTS EDUCATOR (Football).",
       "list": [
-        { "title": "Preparation and supervision", "skills": ["catégorie 6-9 ans"] },
-        { "title": "Weekly internships", "skills": ["toutes catégories"]}
+        { "title": "Preparation and supervision", "skills": ["Junior class"] },
+        { "title": "Weekly internships", "skills": ["All classes"]}
       ]
     }
   ],
@@ -124,12 +124,13 @@
     }
   ],
   "languages": [
+    {"title": "French", "desc": "Native speaker"},
     {"title": "English", "desc": "Full professional competence "},
-    {"title": "Espagnol", "desc": "Limited professional competence"}
+    {"title": "Spanish", "desc": "Limited professional competence"}
   ],
   "interest" : [
     {"title": "Musique", "desc": "Piano, Music creation via DAW"},
-    {"title": "Sport", "desc": "Soccer (club ESESN), Tennis"},
+    {"title": "Sport", "desc": "Football (club ESESN), Tennis"},
     {"title": "Voluntarism", "desc": "Téléthon, Courir pour Curie"}
   ]
 }
