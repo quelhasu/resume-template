@@ -1,0 +1,38 @@
+mixin info-item(info)
+      li 
+        i(class=info.fa)
+        if info.href
+          a(href=info.href target="_blank") #{info.value}
+        else 
+          =info.value
+
+mixin content-list(item)
+  li
+    =item.title 
+    if item.skills
+      |  (
+      each content, index in item.skills
+        b= content
+        if index != item.skills.length - 1
+          =' , '  
+      |)
+
+mixin content-item(item)
+  .info
+    p.colorized= item.location
+    p= item.year
+  h2= item.title 
+  h3.uppercase= item.type
+  ul 
+    each sec in item.list
+      +content-list(sec)
+
+mixin project-item(item)
+  h2= item.title
+  p #{item.desc} 
+    b  #{item.skills}
+
+mixin misc-item(item)
+  p
+    b= item.title
+    |: #{item.desc}

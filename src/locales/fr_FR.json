@@ -1,0 +1,134 @@
+{
+  "me": {
+    "first_name": "Ugo ",
+    "last_name": "QUELHAS",
+    "status": "Etudiant ingénieur informatique - ESILV",
+    "address": "L'Etang La Ville, 78620 - France",
+    "summary": "Elève ingénieur en Informatique en quatrième année à l'Ecole d'Ingénieurs Leonard de Vinci (diplôme en juin 2020). Curieux, dynamique, ouvert d'esprit et autonome, je suis très motivé par les nouvelles technologies et l'intelligence artificielle en coopération avec l'homme."
+  },
+  "info": [
+    {
+      "fa": "fas fa-mobile-alt",
+      "value": " (+33) 6 23 74 80 96"
+    },
+    {
+      "fa": "fas fa-envelope",
+      "value": " ugo.quelhas@devinci.fr",
+      "href": "mailto:ugo.quelhas@devinci.fr"
+    },
+    {
+      "fa": "fab fa-github",
+      "value": " @quelhasu",
+      "href": "https://github.com/quelhasu"
+    },
+    {
+      "fa": "fab fa-linkedin",
+      "value": " quelhasugo",
+      "href": "https://www.linkedin.com/in/quelhasugo/"
+    },
+    {
+      "fa": "fas fa-id-card",
+      "value": "  22 ans"
+    }
+  ],
+  "education": [
+    {
+      "location": "La Defense - Courbevoie, France",
+      "year": "2017 - 2020",
+      "title": "ESILV (Ecole Supérieure d’Ingénieurs Léonard-de-Vinci)",
+      "type": "INGÉNIEUR",
+      "list": [
+        { "title": "Base de données et interopérabilité", "skills": ["mySQL","noSQL"] },
+        { "title": "Programmation Orientée Objet et Interface", "skills": ["C#", ".NET", "WPF"]},
+        { "title": "Machine Learning", "skills": ["R"]},
+        { "title": "Cloud & Virtualization", "skills": ["Docker", "NodeJS", "Python"]},
+        { "title": "Design Pattern & Soft dev", "skills":["Java EE"]}  
+      ]
+    },
+    {
+      "location": "Montréal, Canada",
+      "year": "2017",
+      "title": "UQAM (Université du Québec à Montréal)",
+      "type": "PROGRAMME COURT DE PREMIER CYCLE - ÉCHANGE",
+      "list": [
+        { "title": "Développement de logiciel dans un environnement agile", "skills": ["Java"] },
+        { "title": "Langages de script et langages dynamique", "skills": ["Ruby", "Python", "Shell"]},
+        { "title": "Programmation web avancée", "skills": ["HTML", "CSS", "Flask"]}
+      ]
+    },
+    {
+      "location": "Orsay, France",
+      "year": "2015 - 2017",
+      "title": "IUT Orsay",
+      "type": "DUT Informatique",
+      "list": [
+        { "title": "Algorithmique et Langages de programmation", "skills": ["Java", "C++", "Visual Basic"] },
+        { "title": "Analyse et Conception des Systèmes d’Information", "skills": ["UML"]},
+        { "title": "Architecture", "skills": ["C"]},
+        { "title": "Bases de Données", "skills": ["Merise", "MySQL", "ORACLE"]},
+        { "title": "Réseaux, Système Informatique", "skills":["Shell"]}  
+      ]
+    },
+    {
+      "location": "Marly-le-Roi, France",
+      "year": "2011 - 2015",
+      "title": "Lycée Louis de Broglie",
+      "type": "Terminale S, Spécialité ISN, Option musique",
+      "list": [
+        { "title": "Informatique et Sciences du Numérique", "skills": ["HTML", "CSS", "JS", "Python"] }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "location": "Boulogne-Billancourt, France",
+      "year": "mai 2017 - juil. 2017",
+      "title": "Aubay",
+      "type": "STAGE DE FIN D'ÉTUDE À L'IUT",
+      "list": [
+        { "title": "Développement application mobile hybride sous Ionic", "skills": ["Ionic 2", "Typescript"]}
+      ]
+    },
+    {
+      "location": "L'Etang-la-Ville, France",
+      "year": "2014 - 2017",
+      "title": "ESESN (Entente Sportive Etang Saint-Nom)",
+      "type": "EDUCATEUR SPORTIF (FOOTBALL)",
+      "list": [
+        { "title": "Préparation et encadrement", "skills": ["catégorie 6-9 ans"] },
+        { "title": "Stages hebdomadaires", "skills": ["toutes catégories"]}
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Foreign’Five",
+      "desc" :"Projet de première année à l’ESILV. Développement d’une application mobile utilitaire ",
+      "skills": ["Ionic 2"]
+    },
+    {
+      "title": "A Partir de Combien",
+      "desc" :"Projet personnel de développement d’un jeu de divertissement disponible sur internet",
+      "skills": ["ReactJS, PHP"]
+    },
+    {
+      "title": "Memory Game",
+      "desc" :"Projet de fin d’étude à l’IUT. Développement d’un jeu mobile",
+      "skills": ["Java", "UML"]
+    },
+    {
+      "title": "Minute Geek",
+      "desc" :"Projet personnel de création d’un site internet d’actualité",
+      "skills": ["HTML", "CSS", "Wordpress"]
+    }
+  ],
+  "languages": [
+    {"title": "Anglais", "desc": "Courant"},
+    {"title": "Espagnol", "desc": "Scolaire"}
+  ],
+  "interest" : [
+    {"title": "Musique", "desc": "Piano, création musicale via MAO"},
+    {"title": "Sport", "desc": "Football (club ESESN), tennis"},
+    {"title": "Bénévolat", "desc": "Téléthon, Courir pour Curie"}
+  ]
+}

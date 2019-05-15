@@ -1,0 +1,134 @@
+{
+  "me": {
+    "first_name": "Ugo ",
+    "last_name": "QUELHAS",
+    "status": "IT Student at the ESILV",
+    "address": "L'Etang La Ville, 78620 - France",
+    "summary": "Engineering student in Data Science in fourth-yearengineer school at The Leonard de Vinci Engineering School (degree in June 2020). Curious, dynamic, open-minded and autonomous, I am very motivated by new technologies and in artificial intelligence in cooperation with humans.One of the challenges is to meet human needs through data analysis without putting the human aside. I would like to be part of this revolution."
+  },
+  "info": [
+    {
+      "fa": "fas fa-mobile-alt",
+      "value": " (+33) 6 23 74 80 96"
+    },
+    {
+      "fa": "fas fa-envelope",
+      "value": " ugo.quelhas@devinci.fr",
+      "href": "mailto:ugo.quelhas@devinci.fr"
+    },
+    {
+      "fa": "fab fa-github",
+      "value": " @quelhasu",
+      "href": "https://github.com/quelhasu"
+    },
+    {
+      "fa": "fab fa-linkedin",
+      "value": " quelhasugo",
+      "href": "https://www.linkedin.com/in/quelhasugo/"
+    },
+    {
+      "fa": "fas fa-id-card",
+      "value": "  22 yo"
+    }
+  ],
+  "education": [
+    {
+      "location": "La Defense - Courbevoie, France",
+      "year": "2017 - 2020",
+      "title": "ESILV (Leonardo da Vinci Engineering School)",
+      "type": "Engineering",
+      "list": [
+        { "title": "Database and interoperability", "skills": ["mySQL","noSQL"] },
+        { "title": "Object Oriented Programming and Interface", "skills": ["C#", ".NET", "WPF"]},
+        { "title": "Machine Learning", "skills": ["R"]},
+        { "title": "Cloud & Virtualization", "skills": ["Docker", "NodeJS", "Python"]},
+        { "title": "Design Pattern & Soft dev", "skills":["Java EE"]}  
+      ]
+    },
+    {
+      "location": "Montréal, Canada",
+      "year": "2017",
+      "title": "UQAM (Université du Québec à Montréal)",
+      "type": "UNDERGRADUATE SHORT PROGRAM - EXCHANGE",
+      "list": [
+        { "title": "Software development in an agile environment", "skills": ["Java"] },
+        { "title": "Scripting and dynamic languages", "skills": ["Ruby", "Python", "Shell"]},
+        { "title": "Advanced web programming", "skills": ["HTML", "CSS", "Flask"]}
+      ]
+    },
+    {
+      "location": "Orsay, France",
+      "year": "2015 - 2017",
+      "title": "IUT Orsay",
+      "type": "DUT in Computer Science",
+      "list": [
+        { "title": "Algorithms and Programming Languages", "skills": ["Java", "C++", "Visual Basic"] },
+        { "title": "Information Systems Analysis and Design", "skills": ["UML"]},
+        { "title": "Architecture", "skills": ["C"]},
+        { "title": "Database", "skills": ["Merise", "MySQL", "ORACLE"]},
+        { "title": "Networks, Computer Systems", "skills":["Shell"]}  
+      ]
+    },
+    {
+      "location": "Marly-le-Roi, France",
+      "year": "2011 - 2015",
+      "title": "Louis de Broglie High School",
+      "type": "Terminale S, ISN Specialty, Music Option",
+      "list": [
+        { "title": "Information Technology and Digital Sciences", "skills": ["HTML", "CSS", "JS", "Python"] }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "location": "Boulogne-Billancourt, France",
+      "year": "may 2017 - jul. 2017",
+      "title": "Aubay",
+      "type": "FINAL INTERNSHIP AT THE IUT",
+      "list": [
+        { "title": "Development of hybrid mobile application under Ionic", "skills": ["Ionic 2", "Typescript"]}
+      ]
+    },
+    {
+      "location": "L'Etang-la-Ville, France",
+      "year": "2014 - 2017",
+      "title": "ESESN (Entente Sportive Etang Saint-Nom)",
+      "type": "SPORTS EDUCATOR (Soccer).",
+      "list": [
+        { "title": "Preparation and supervision", "skills": ["catégorie 6-9 ans"] },
+        { "title": "Weekly internships", "skills": ["toutes catégories"]}
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Foreign’Five",
+      "desc" :"First year project at ESILV. Development of a mobile utility application",
+      "skills": ["Ionic 2"]
+    },
+    {
+      "title": "A Partir de Combien",
+      "desc" :"Personal project to develop an entertainment game available on the Internet",
+      "skills": ["ReactJS, PHP"]
+    },
+    {
+      "title": "Memory Game",
+      "desc" :"End of study project at the IUT. Development of a mobile game",
+      "skills": ["Java", "UML"]
+    },
+    {
+      "title": "Minute Geek",
+      "desc" :"Personal project to create a news website",
+      "skills": ["HTML", "CSS", "Wordpress"]
+    }
+  ],
+  "languages": [
+    {"title": "English", "desc": "Full professional competence "},
+    {"title": "Espagnol", "desc": "Limited professional competence"}
+  ],
+  "interest" : [
+    {"title": "Musique", "desc": "Piano, Music creation via DAW"},
+    {"title": "Sport", "desc": "Soccer (club ESESN), Tennis"},
+    {"title": "Voluntarism", "desc": "Téléthon, Courir pour Curie"}
+  ]
+}
