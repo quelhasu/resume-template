@@ -222,8 +222,8 @@ body > .markdown-preview {
 .resume-body h1:after {
   display: inline-block;
   content: "";
-  height: 2px;
-  background: #a0a0a0;
+  height: 1px;
+  background: #717171;
   position: absolute;
   width: 100%;
   top: 50%;

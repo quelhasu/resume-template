@@ -8,14 +8,30 @@ const imagemin = require('gulp-imagemin');
 var prettify = require('gulp-jsbeautifier');
 var less = require('gulp-less');
 var path = require('path');
+var data = require('gulp-data');
+var pugI18n = require('gulp-i18n-pug');
 
 var source = './src';
 var destination = './build';
 
+
 gulp.task('html', function () {
+  var options = {
+    i18n: {
+      dest: 'dist',
+      locales: source + '/locales/*.*',
+      namespace: '$t',
+      localeExtension: true
+    },
+    pretty: true
+  };
   return gulp
-    .src(source + "/resume.pug")
-    .pipe(pug())
+    .src(source + "/views/resume.pug")
+    // .pipe(data(function(file) {
+    //   return require(source + '/info.json');
+    // }))
+    .pipe(pugI18n(options))
+    // .pipe(pug())
     .pipe(prettify())
     .pipe(gulp.dest(destination + "/"));
 });
@@ -31,7 +47,7 @@ gulp.task('sass', function () {
 });
 
 gulp.task('less', function () {
-  return gulp.src(source + '/*.less')
+  return gulp.src(source + '/style/*.less')
     .pipe(less({
       paths: [ path.join(__dirname, 'less', 'includes') ]
     }))
@@ -55,8 +71,8 @@ gulp.task('image', function () {
 
 gulp.task('watch', function () {
   gulp.watch([source + '/sass/*.sass', source + '/sass/*.css', source + '/sass/*.scss'], gulp.series('sass'));
-  gulp.watch(source + '/*.pug', gulp.series('html'));
-  gulp.watch(source + '/*.less', gulp.series('less'));
+  gulp.watch(source + '/views/*.pug', gulp.series(['html']));
+  gulp.watch(source + '/style/*.less', gulp.series('less'));
   gulp.watch(source + '/js/*.js', gulp.series('js'));
   gulp.watch(source + '/img/*', gulp.series('image'));
 });
