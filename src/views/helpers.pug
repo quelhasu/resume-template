@@ -8,7 +8,10 @@ mixin info-item(info)
 
 mixin content-list(item)
   li
-    =item.title 
+    if item.link
+      a(href=item.link target="_blank") #{item.title}
+    else 
+      =item.title 
     if item.skills
       |  (
       each content, index in item.skills
@@ -18,21 +21,62 @@ mixin content-list(item)
       |)
 
 mixin content-item(item)
-  .info
-    p.colorized= item.location
-    p= item.year
-  h2= item.title 
-  h3.uppercase= item.type
-  ul 
-    each sec in item.list
-      +content-list(sec)
+  .content
+    .info
+      p.colorized= item.location
+      p= item.year
+    h2= item.title 
+    if item.secondary
+      h3.secondary= item.secondary
+    h3.uppercase= item.type
+    ul 
+      each mission in item.list
+        +content-list(mission)
+    if item.stack 
+      .block.stack
+        b= "Stack: "
+        each tech, index in item.stack
+          span= tech
+          if index != item.stack.length - 1
+            =' , '
+
+mixin education-item(item)
+  .content
+    .info
+      p.colorized= item.location
+      p= item.year
+    h2= item.title
+    if item.secondary
+      h3.secondary= item.secondary
+    h3.uppercase= item.type
+    .flex-list-education
+      ul
+        each educ in item.list
+          +content-list(educ)
+    
 
 mixin project-item(item)
-  h2= item.title
-  p #{item.desc} 
-    b  #{item.skills}
+  if item.link
+    h2.project_date.block
+      a(href= item.link target="_blank") #{item.title}
+  else
+    h2.project_date.block= item.date
+  div.project_desc.block
+    p= item.desc
+      if item.link
+        a(href=item.link target="_blank")
+          i(class=item.fa)
+    //- h3.secondary= item.desc
 
 mixin misc-item(item)
   p
     b= item.title
     |: #{item.desc}
+
+mixin publication-item(item)
+  .content
+    .info
+      p= item.date
+    h3= item.title
+    h3.secondary.block= item.secondary
+    h3.right.block= item.code

@@ -3,9 +3,9 @@
   "me": {
     "first_name": "Ugo ",
     "last_name": "QUELHAS",
-    "status": "IT Student at the ESILV",
+    "status": "Research 6-month end-of-study internship starting in March 2020 in Data Science",
     "address": "L'Etang La Ville, 78620 - France",
-    "summary": "French engineering student in Data Science in fourth-year engineer school at The Leonard de Vinci Engineering School (degree in June 2020). Curious, dynamic, open-minded and autonomous, I am very motivated by new technologies and in artificial intelligence in cooperation with humans. One of the challenges is to meet human needs through data analysis without putting the human aside. I would like to be part of this revolution."
+    "summary": "Computer Science engineering student in fourth year at Leonard de Vinci Engineering School (diploma in June 2020). Motivated by new technologies and data sciences, I am looking for an internship in Data Science ."
   },
   "info": [
     {
@@ -26,24 +26,64 @@
       "fa": "fab fa-linkedin",
       "value": " quelhasugo",
       "href": "https://www.linkedin.com/in/quelhasugo/"
-    },
-    {
-      "fa": "fas fa-id-card",
-      "value": "  22 yo"
     }
   ],
   "education": [
+    {
+      "location": "Milan, Italie",
+      "year": "2019 - 2020",
+      "title": "Politecnico di Milano",
+      "type": "Master of Science, Ingénierie de l'informatique",
+      "list": [
+        { "title": "Database", "link":"https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=712312&polij_device_category=DESKTOP&__pj0=0&__pj1=6c76af00289b7297a11114a651a8555e" },
+        { "title": "Unstructured and Streaming Data Engineering", "link": "https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=715631&polij_device_category=DESKTOP&__pj0=0&__pj1=0938654c635ec7d8a60f99c032a52fb6"},
+        { "title": "Technologies for Information Systems", "link":"https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=711967&polij_device_category=DESKTOP&__pj0=0&__pj1=418b4d8b3ec616c9e637e115a2750ef6"},
+        { "title": "Artificial Intelligence", "link":"https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=711769&polij_device_category=DESKTOP&__pj0=0&__pj1=113b4086af55425292f97d29d10c285d"},
+        { "title": "Software Engineering", "link": "https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=715472&polij_device_category=DESKTOP&__pj0=0&__pj1=5b80544dccf8b812db7a62c551da2190"},
+        {"title" : "Computer Systems Perfomance Evaluation", "link": "https://www4.ceda.polimi.it/manifesti/manifesti/controller/ManifestoPublic.do?EVN_DETTAGLIO_RIGA_MANIFESTO=evento&aa=2019&k_cf=225&k_corso_la=481&k_indir=T2A&codDescr=090945&lang=EN&semestre=1&idGruppo=3925&idRiga=239667"}
+      ]
+    },
     {
       "location": "La Defense - Paris, France",
       "year": "2017 - 2020",
       "title": "ESILV (Leonardo da Vinci Engineering School)",
       "type": "Engineering",
       "list": [
-        { "title": "Database and interoperability", "skills": ["mySQL","noSQL"] },
-        { "title": "Object Oriented Programming and Interface", "skills": ["C#", ".NET", "WPF"]},
-        { "title": "Machine Learning", "skills": ["R"]},
-        { "title": "Cloud & Virtualization", "skills": ["Docker", "NodeJS", "Python"]},
-        { "title": "Design Pattern & Soft dev", "skills":["Java EE"]}  
+        {
+          "title": "Database and interoperability",
+          "skills": [
+            "mySQL",
+            "noSQL"
+          ]
+        },
+        {
+          "title": "Object Oriented Programming and Interface",
+          "skills": [
+            "C#",
+            ".NET",
+            "WPF"
+          ]
+        },
+        {
+          "title": "Machine Learning",
+          "skills": [
+            "R"
+          ]
+        },
+        {
+          "title": "Cloud & Virtualization",
+          "skills": [
+            "Docker",
+            "NodeJS",
+            "Python"
+          ]
+        },
+        {
+          "title": "Design Pattern & Soft dev",
+          "skills": [
+            "Java EE"
+          ]
+        }
       ]
     },
     {
@@ -52,9 +92,28 @@
       "title": "UQAM (Université du Québec à Montréal)",
       "type": "UNDERGRADUATE SHORT PROGRAM - EXCHANGE",
       "list": [
-        { "title": "Software development in an agile environment", "skills": ["Java"] },
-        { "title": "Scripting and dynamic languages", "skills": ["Ruby", "Python", "Shell"]},
-        { "title": "Advanced web programming", "skills": ["HTML", "CSS", "Flask"]}
+        {
+          "title": "Software development in an agile environment",
+          "skills": [
+            "Java"
+          ]
+        },
+        {
+          "title": "Scripting and dynamic languages",
+          "skills": [
+            "Ruby",
+            "Python",
+            "Shell"
+          ]
+        },
+        {
+          "title": "Advanced web programming",
+          "skills": [
+            "HTML",
+            "CSS",
+            "Flask"
+          ]
+        }
       ]
     },
     {
@@ -63,11 +122,40 @@
       "title": "IUT Orsay",
       "type": "DUT in Computer Science",
       "list": [
-        { "title": "Algorithms and Programming Languages", "skills": ["Java", "C++", "Visual Basic"] },
-        { "title": "Information Systems Analysis and Design", "skills": ["UML"]},
-        { "title": "Architecture", "skills": ["C"]},
-        { "title": "Database", "skills": ["Merise", "MySQL", "ORACLE"]},
-        { "title": "Networks, Computer Systems", "skills":["Shell"]}  
+        {
+          "title": "Algorithms and Programming Languages",
+          "skills": [
+            "Java",
+            "C++",
+            "Visual Basic"
+          ]
+        },
+        {
+          "title": "Information Systems Analysis and Design",
+          "skills": [
+            "UML"
+          ]
+        },
+        {
+          "title": "Architecture",
+          "skills": [
+            "C"
+          ]
+        },
+        {
+          "title": "Database",
+          "skills": [
+            "Merise",
+            "MySQL",
+            "ORACLE"
+          ]
+        },
+        {
+          "title": "Networks, Computer Systems",
+          "skills": [
+            "Shell"
+          ]
+        }
       ]
     },
     {
@@ -76,19 +164,45 @@
       "title": "Louis de Broglie High School",
       "type": "French A-Levels, Scientific, Computer-Science Speciality, Music Option",
       "list": [
-        { "title": "Information Technology and Digital Sciences", "skills": ["HTML", "CSS", "JS", "Python"] }
+        {
+          "title": "Information Technology and Digital Sciences",
+          "skills": [
+            "HTML",
+            "CSS",
+            "JS",
+            "Python"
+          ]
+        }
       ]
     }
   ],
   "experience": [
     {
+      "location": "La Defense - Courbevoie, France",
+      "year": "avr. 2019 - aout 2019",
+      "title": "Data Engineer",
+      "type": "DVRC - De Vinci Research Center • Stage",
+      "list": [
+        { "title": "Automation of data extraction and transformation processes"},
+        { "title": "Integration of a Neo4j database with graph generation scripts"},
+        { "title": "Development of a REST API to process business logic"},
+        { "title": "Development of an interactive dashboard to visualize the data and facilitate analysis"},
+        { "title": "Development of an admin dashboard to manage processes and monitor databases"},
+        { "title": "Virtualization of micro services in Docker to facilitate reuse in other contexts"}
+      ],
+      "stack": ["MySQL", "Neo4j (ETL)", "Java Spring Boot", "Maven", "Javascript", "React", "Leaflet", "git"]
+    },
+    {
       "location": "Boulogne-Billancourt, France",
       "year": "may 2017 - jul. 2017",
-      "title": "Aubay",
-      "type": "FINAL INTERNSHIP AT THE IUT",
+      "title": "Cross-platform mobile developer",
+      "type": "Aubay • Intern",
       "list": [
-        { "title": "Development of hybrid mobile application under Ionic", "skills": ["Ionic 2", "Typescript"]}
-      ]
+        {
+          "title": "Development of a cross-platform mobile application with the Ionic framework in Agile environment"
+        }
+      ],
+      "stack": ["Ionic 2 (AngularJS, Cordova)", "HTML", "Sass", "TypeScript"]
     },
     {
       "location": "L'Etang-la-Ville, France",
@@ -96,41 +210,80 @@
       "title": "ESESN (Entente Sportive Etang Saint-Nom)",
       "type": "SPORTS EDUCATOR (Football).",
       "list": [
-        { "title": "Preparation and supervision", "skills": ["Junior class"] },
-        { "title": "Weekly internships", "skills": ["All classes"]}
+        {
+          "title": "Preparation and supervision",
+          "skills": [
+            "Junior class"
+          ]
+        },
+        {
+          "title": "Weekly internships",
+          "skills": [
+            "All classes"
+          ]
+        }
       ]
     }
   ],
   "projects": [
     {
-      "title": "Foreign’Five",
-      "desc" :"First year project at ESILV. Development of a mobile utility application",
-      "skills": ["Ionic 2"]
+      "title": "Neo4Tourism",
+      "fa": "fab fa-github",
+      "link": "https://github.com/quelhasu/tourism-dashboard",
+      "desc" :"Framework under Docker developed during the 4th year internship (Dashboard, API, Database,...)."
     },
     {
-      "title": "A Partir de Combien",
-      "desc" :"Personal project to develop an entertainment game available on the Internet",
-      "skills": ["ReactJS, PHP"]
+      "title": "JQuiz",
+      "fa": "fab fa-github",
+      "link": "https://github.com/quelhasu/jquiz",
+      "desc" :"Personal project, platform for creating and reading quizzes in JSON format."
     },
     {
-      "title": "Memory Game",
-      "desc" :"End of study project at the IUT. Development of a mobile game",
-      "skills": ["Java", "UML"]
-    },
+      "title": "Castle",
+      "fa": "fab fa-github",
+      "link": "https://github.com/quelhasu/castle-client",
+      "desc" :"Scraping project, transformation and display of data from the Relais & Chateaux website."    },
     {
       "title": "Minute Geek",
-      "desc" :"Personal project to create a news website",
-      "skills": ["HTML", "CSS", "Wordpress"]
+      "fa": "fas fa-globe",
+      "desc" :"Personal project, creation of a news website.",
+      "link": "http://web.archive.org/web/20180320093532/http://www.minutegeek.fr/"
+    }
+  ],
+  "publication": [
+    {
+      "title": "G. Chareyron, U. Quelhas et N. Travers, «Neo4Tourism - A framework for Graph Data Analysis on Tourism», 35ème Conférence sur la Gestion de Données – Principes, Technologies et Applications. (BDA’19) - pp. 1-5, octobre 2019. Lyon, France",
+      "date": "",
+      "code": "",
+      "secondary": ""
     }
   ],
   "languages": [
-    {"title": "French", "desc": "Native speaker"},
-    {"title": "English", "desc": "Full professional competence "},
-    {"title": "Spanish", "desc": "Limited professional competence"}
+    {
+      "title": "French",
+      "desc": "Native speaker"
+    },
+    {
+      "title": "English",
+      "desc": "Full professional competence "
+    },
+    {
+      "title": "Spanish",
+      "desc": "Limited professional competence"
+    }
   ],
-  "interest" : [
-    {"title": "Musique", "desc": "Piano, Music creation via DAW"},
-    {"title": "Sport", "desc": "Football (club ESESN), Tennis"},
-    {"title": "Voluntarism", "desc": "Téléthon, Courir pour Curie"}
+  "interest": [
+    {
+      "title": "Musique",
+      "desc": "Piano, Music creation via DAW"
+    },
+    {
+      "title": "Sport",
+      "desc": "Football (club ESESN), Tennis"
+    },
+    {
+      "title": "Voluntarism",
+      "desc": "Téléthon, Courir pour Curie"
+    }
   ]
 }

@@ -1,0 +1,142 @@
+{
+  "title": "CV_Alex_QUELHAS",
+  "me": {
+    "first_name": "Alexandre ",
+    "last_name": "QUELHAS",
+    "status": "",
+    "address": "Ecole Nationale Supérieure de Chimie de Rennes, Unniv Rennes, Institut des Sciences Chimiques de Rennes (CNRS)",
+    "summary": ""
+  },
+  "info": [
+    {
+      "fa": "fas fa-mobile-alt",
+      "value": " (+33) 6 46 13 23 95"
+    },
+    {
+      "fa": "fas fa-envelope",
+      "value": " alexandre.quelhas@esnc-rennes.fr",
+      "href": "mailto:alexandre.quelhas@esnc-rennes.fr"
+    },
+    {
+      "fa": "fab fa-linkedin",
+      "value": " aquelhas",
+      "href": "https://www.linkedin.com/in/aquelhas/"
+    }
+  ],
+  "education": [
+    {
+      "location": "Rennes, France",
+      "year": "2018 - 2021",
+      "title": "Doctorat – Synthèse et Étude de la Réactivité Chimique des 1-Alcynylisocyanures",
+      "secondary": "Dans l’équipe CORINT Sous la direction du Dr. Jean-Claude Guillemin et du Pr. Yann Trolez",
+      "type": "Université Rennes 1",
+      "list": []
+    },
+    {
+      "location": "Rennes, France",
+      "year": "2016 - 2018",
+      "title": "Diplôme d’ingénieur chimiste de l’ENSCR – Majeure : Chimie Organique et Biochimie",
+      "secondary": "Master en Chimie Moléculaire à l’Université de Rennes 1 en double diplôme",
+      "type": "ENSCR, Université Rennes 1",
+      "list": []
+    },
+    {
+      "location": "Versailles, France",
+      "year": "2012 - 2016",
+      "title": "Licence et M1 en Chimie à l’Université de Versailles",
+      "secondary": "Majeure : Chimie Organique",
+      "type": "Université de Versailles",
+      "list": []
+    },
+    {
+      "location": "Versailles, France",
+      "year": "2011 - 2012",
+      "title": "PACES 1 du diplôme de docteur en médecine à l’Université de Versailles",
+      "type": "Université de Versailles",
+      "list": []
+    }
+  ],
+  "experience": [
+    {
+      "location":"Rennes, France",
+      "year": "2018 - 2020 ",
+      "title": "Activité complémentaire d’enseignement aux doctorants contractuels",
+      "secondary": "TP Classes Préparatoires",
+      "type": "ENSCR",
+      "list": [
+        {"title": "Chimie Organique 2019-2020"},
+        {"title": "Chimie Générale 2018-2019"}
+      ]
+    },
+    {
+      "location": "Vitry-sur-Seine, France",
+      "year": "mar. 2018 - août 2018",
+      "title": "Synthèse et Scale-up de composés d’intérêt en chimie médicinale",
+      "secondary": "Stage en synthèse organique sous la tutelle de Luc Bertin et du Dr. Victor Certal",
+      "type": "Sanofi Aventis R&D",
+      "list": []
+    },
+    {
+      "location": "St. Catharines, Ontario, Canada",
+      "year": "avr. 2017 - août 2017",
+      "title": "Recherches menées sur la synthèse et caractérisation de composés menant à la synthèse d’analogues au 3ʹ, 5’-cyclic diguanylic acid (c-di-GMP)",
+      "secondary": "Stage en bioorganique sous la tutelle du Pr. Tony Yan",
+      "type": "Brock University",
+      "list": []
+    },
+    {
+      "location": "Versailles, France",
+      "year": "avr. 2016 - jui. 2016",
+      "title": "Recherches sur l’iodocarbamation de N-Homopropargyl Carbamates",
+      "secondary": "Stage en synthèse organique sous la tutelle du Pr. François Couty et du Dr. Pierre Quinodoz",
+      "type": "Institut Lavoisier de Versailles",
+      "list": []
+    },
+    {
+      "location": "Versailles, France",
+      "year": "juin 2015 - jui. 2015",
+      "title": "Recherches sur l’iodocarbamation de N-Homopropargyl Carbamates",
+      "secondary": "Stage en synthèse organique sous la tutelle du Pr. François Couty et du Dr. Pierre Quinodoz",
+      "type": "Institut Lavoisier de Versailles",
+      "list": []
+    }
+  ],
+  "languages": [
+    {
+      "title": "Anglais",
+      "desc": "TOEIC (09.02.17) "
+    },
+    {
+      "title": "Espagnol",
+      "desc": "B1"
+    }
+  ],
+  "interest": [
+    {
+      "title": "Musique",
+      "desc": "Piano, créations musicales"
+    },
+    {
+      "title": "Sport",
+      "desc": "Tennis, VTT et Golf"
+    },
+    {
+      "title": "Bénévolat",
+      "desc": "Courir pour Curie"
+    }
+  ],
+  "publication": [
+    {
+      "title": "Expedient Synthesis of Conjugated Triynes via Alkyne Metathesis",
+      "date": "avril 2020",
+      "code": "DOI: 10.1039/D0SC01124J",
+      "secondary": "Chemical Science"
+    },
+    {
+      "title": "Iodocarbamation of N-Homopropargyl Carbamates: Mild and Stereoselective Entry to Functionalized Oxazinan-2-ones",
+      "date": "10 mai 2017",
+      "code": "DOI: 10.1002/ejoc.201700231",
+      "secondary": "European Journal of Organic Chemistry"
+    }
+  ]
+}

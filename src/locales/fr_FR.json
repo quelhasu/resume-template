@@ -3,9 +3,9 @@
   "me": {
     "first_name": "Ugo ",
     "last_name": "QUELHAS",
-    "status": "Etudiant ingénieur informatique - ESILV",
+    "status": "Etudiant ingénieur",
     "address": "L'Etang La Ville, 78620 - France",
-    "summary": "Elève ingénieur en Informatique en quatrième année à l'Ecole d'Ingénieurs Leonard de Vinci (diplôme en juin 2020). Curieux, dynamique, ouvert d'esprit et autonome, je suis très motivé par les nouvelles technologies et l'intelligence artificielle en coopération avec l'homme."
+    "summary": ""
   },
   "info": [
     {
@@ -14,8 +14,8 @@
     },
     {
       "fa": "fas fa-envelope",
-      "value": " ugo.quelhas@devinci.fr",
-      "href": "mailto:ugo.quelhas@devinci.fr"
+      "value": " ugo.quelhas@edu.devinci.fr",
+      "href": "mailto:ugo.quelhas@edu.devinci.fr"
     },
     {
       "fa": "fab fa-github",
@@ -26,13 +26,23 @@
       "fa": "fab fa-linkedin",
       "value": " quelhasugo",
       "href": "https://www.linkedin.com/in/quelhasugo/"
-    },
-    {
-      "fa": "fas fa-id-card",
-      "value": "  22 ans"
     }
   ],
   "education": [
+    {
+      "location": "Milan, Italie",
+      "year": "2019 - 2020",
+      "title": "Politecnico di Milano",
+      "type": "Master of Science, Ingénierie de l'informatique",
+      "list": [
+        { "title": "Database", "link":"https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=712312&polij_device_category=DESKTOP&__pj0=0&__pj1=6c76af00289b7297a11114a651a8555e" },
+        { "title": "Unstructured and Streaming Data Engineering", "link": "https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=715631&polij_device_category=DESKTOP&__pj0=0&__pj1=0938654c635ec7d8a60f99c032a52fb6"},
+        { "title": "Technologies for Information Systems", "link":"https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=711967&polij_device_category=DESKTOP&__pj0=0&__pj1=418b4d8b3ec616c9e637e115a2750ef6"},
+        { "title": "Artificial Intelligence", "link":"https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=711769&polij_device_category=DESKTOP&__pj0=0&__pj1=113b4086af55425292f97d29d10c285d"},
+        { "title": "Software Engineering", "link": "https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=715472&polij_device_category=DESKTOP&__pj0=0&__pj1=5b80544dccf8b812db7a62c551da2190"},
+        {"title" : "Computer Systems Perfomance Evaluation", "link": "https://www4.ceda.polimi.it/manifesti/manifesti/controller/ManifestoPublic.do?EVN_DETTAGLIO_RIGA_MANIFESTO=evento&aa=2019&k_cf=225&k_corso_la=481&k_indir=T2A&codDescr=090945&lang=EN&semestre=1&idGruppo=3925&idRiga=239667"}
+      ]
+    },
     {
       "location": "La Defense - Courbevoie, France",
       "year": "2017 - 2020",
@@ -82,19 +92,35 @@
   ],
   "experience": [
     {
+      "location": "La Defense - Courbevoie, France",
+      "year": "avr. 2019 - aout 2019",
+      "title": "Data Engineer",
+      "type": "DVRC - De Vinci Research Center • Stage",
+      "list": [
+        { "title": "Automatisation des processus d'extraction et de transformation des données"},
+        { "title": "Intégration d'une base de données Neo4j avec des scripts de génération de graphes"},
+        { "title": "Développement d'une API REST pour traiter les données"},
+        { "title": "Développement d'un dashboard interactif pour visualiser les données et faciliter l'analyse"},
+        { "title": "Développement d'un dashboard admin pour gérer les processus et monitorer les bases de données"},
+        { "title": "Virtualisation des micro services dans Docker pour faciliter la réutilisation dans d'autres contextes"}
+      ],
+      "stack": ["MySQL", "Neo4j (ETL)", "Java Spring Boot", "Maven", "Javascript", "React", "Leaflet", "git"]
+    },
+    {
       "location": "Boulogne-Billancourt, France",
       "year": "mai 2017 - juil. 2017",
-      "title": "Aubay",
-      "type": "STAGE DE FIN D'ÉTUDE À L'IUT",
+      "title": "Développeur mobile hybride",
+      "type": "Aubay • Stage",
       "list": [
         { "title": "Développement application mobile hybride sous Ionic", "skills": ["Ionic 2", "Typescript"]}
-      ]
+      ],
+      "stack":["Ionic 2 (AngularJS, Cordova)", "HTML", "Sass", "TypeScript" ]
     },
     {
       "location": "L'Etang-la-Ville, France",
       "year": "2014 - 2017",
-      "title": "ESESN (Entente Sportive Etang Saint-Nom)",
-      "type": "EDUCATEUR SPORTIF (FOOTBALL)",
+      "title": "Educateur Sportif (Football)",
+      "type": "ESESN (Entente Sportive Etang Saint-Nom)",
       "list": [
         { "title": "Préparation et encadrement", "skills": ["catégorie 6-9 ans"] },
         { "title": "Stages hebdomadaires", "skills": ["toutes catégories"]}
@@ -103,28 +129,39 @@
   ],
   "projects": [
     {
-      "title": "Foreign’Five",
-      "desc" :"Projet de première année à l’ESILV. Développement d’une application mobile utilitaire ",
-      "skills": ["Ionic 2"]
+      "title": "Neo4Tourism",
+      "fa": "fab fa-github",
+      "link": "https://github.com/quelhasu/tourism-dashboard",
+      "desc" :"Framework sous Docker développé durant le stage de 4ème année (Dashboard, API,  Database,...)."
     },
     {
-      "title": "A Partir de Combien",
-      "desc" :"Projet personnel de développement d’un jeu de divertissement disponible sur internet",
-      "skills": ["ReactJS, PHP"]
+      "title": "JQuiz",
+      "fa": "fab fa-github",
+      "link": "https://github.com/quelhasu/jquiz",
+      "desc" :"Projet personnel, plateforme de création et lecture de quiz en format JSON."
     },
     {
-      "title": "Memory Game",
-      "desc" :"Projet de fin d’étude à l’IUT. Développement d’un jeu mobile",
-      "skills": ["Java", "UML"]
-    },
+      "title": "Castle",
+      "fa": "fab fa-github",
+      "link": "https://github.com/quelhasu/castle-client",
+      "desc" :"Projet de scraping, transformation et affichage des données du site Relais & Chateaux."    },
     {
       "title": "Minute Geek",
-      "desc" :"Projet personnel de création d’un site internet d’actualité",
-      "skills": ["HTML", "CSS", "Wordpress"]
+      "fa": "fas fa-globe",
+      "desc" :"Projet personnel, création d’un site internet d’actualité.",
+      "link": "http://web.archive.org/web/20180320093532/http://www.minutegeek.fr/"
+    }
+  ],
+  "publication": [
+    {
+      "title": "G. Chareyron, U. Quelhas et N. Travers, «Neo4Tourism - A framework for Graph Data Analysis on Tourism», 35ème Conférence sur la Gestion de Données – Principes, Technologies et Applications. (BDA’19) - pp. 1-5, octobre 2019. Lyon, France",
+      "date": "",
+      "code": "",
+      "secondary": ""
     }
   ],
   "languages": [
-    {"title": "Anglais", "desc": "Courant"},
+    {"title": "Anglais", "desc": "Lu, parlé, écrit"},
     {"title": "Espagnol", "desc": "Scolaire"}
   ],
   "interest" : [
