@@ -151,12 +151,6 @@ body > .markdown-preview {
     color: black;
 }
 
-.resume-body .info {
-    float: right;
-    font-style: italic;
-    text-align: right;
-}
-
 .resume-body p {
     margin: 0 !important;
     font-size: var(--main-font-size);
@@ -315,4 +309,18 @@ body > .markdown-preview {
 
 .content{
     margin-bottom: 15px;
+    display:flex;
+    width:100%;
+    .body{
+        width: 70%;
+    }
+    .info {
+        width: 30%;
+        // float: right;
+        font-style: italic;
+        text-align: right;
+        .logo{
+            width: 50px;
+        }
+    }
 }

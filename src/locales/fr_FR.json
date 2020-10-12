@@ -92,6 +92,20 @@
   ],
   "experience": [
     {
+      "location": "Nanterre, France",
+      "year": "juin 2019 - nov. 2020",
+      "title": "Data Engineer",
+      "type": "AXA • Stage",
+      "list": [
+        { "title": "Construction des fondements de l’architecture data d’ALHIS en s’appuyant sur le data lake d’Axa France et en l’intégrant aux outils actuels"},
+        { "title": "Développement des pipelines de collecte, standardisation et analyse de données (ETL). Challenge technique important: diversité des données reçues, des partenaires commerciaux et des cas d’usage qui en résultent"},
+        { "title": "Optimisation des processus de façon à mutualiser le maximum de code, automatiser les tâches, tout en permettant des cas d’usages très variés"},
+        { "title": "Mise en production des outils de détection de la fraude et collaboration avec d’autres équipes data"}
+      ],
+      "stack": ["Python" , "Spark" , "Azure" , "git"],
+      "logo": "https://media-exp1.licdn.com/dms/image/C4E0BAQHvJJio0nB9Mw/company-logo_200_200/0?e=1610582400&v=beta&t=WqnQm6PXiRibsyOmvValpt_BHHzJCPc-o3_PUMjfmu0"
+    },
+    {
       "location": "La Defense - Courbevoie, France",
       "year": "avr. 2019 - aout 2019",
       "title": "Data Engineer",
@@ -104,7 +118,8 @@
         { "title": "Développement d'un dashboard admin pour gérer les processus et monitorer les bases de données"},
         { "title": "Virtualisation des micro services dans Docker pour faciliter la réutilisation dans d'autres contextes"}
       ],
-      "stack": ["MySQL", "Neo4j (ETL)", "Java Spring Boot", "Maven", "Javascript", "React", "Leaflet", "git"]
+      "stack": ["MySQL", "Neo4j (ETL)", "Java Spring Boot", "Maven", "Javascript", "React", "Leaflet", "git"],
+      "logo": "https://media-exp1.licdn.com/dms/image/C560BAQF-W57PygYhVw/company-logo_200_200/0?e=1610582400&v=beta&t=njE1JzOT2khvr3SGcUGFZE5HpsIZ9hR66N176I28rDc"
     },
     {
       "location": "Boulogne-Billancourt, France",
@@ -114,7 +129,8 @@
       "list": [
         { "title": "Développement application mobile hybride sous Ionic", "skills": ["Ionic 2", "Typescript"]}
       ],
-      "stack":["Ionic 2 (AngularJS, Cordova)", "HTML", "Sass", "TypeScript" ]
+      "stack":["Ionic 2 (AngularJS, Cordova)", "HTML", "Sass", "TypeScript" ],
+      "logo": "https://media-exp1.licdn.com/dms/image/C560BAQGcGcbPynKdRw/company-logo_200_200/0?e=1610582400&v=beta&t=_fEhGjO9kAHI4taXdy9pC6HBMvHwr8imKsk80JY4pII"
     },
     {
       "location": "L'Etang-la-Ville, France",
@@ -124,7 +140,7 @@
       "list": [
         { "title": "Préparation et encadrement", "skills": ["catégorie 6-9 ans"] },
         { "title": "Stages hebdomadaires", "skills": ["toutes catégories"]}
-      ]
+      ]    
     }
   ],
   "projects": [

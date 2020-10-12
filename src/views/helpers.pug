@@ -22,37 +22,40 @@ mixin content-list(item)
 
 mixin content-item(item)
   .content
+    .body
+      h2= item.title 
+      if item.secondary
+        h3.secondary= item.secondary
+      h3.uppercase= item.type
+      ul 
+        each mission in item.list
+          +content-list(mission)
+      if item.stack 
+        .block.stack
+          b= "Stack: "
+          each tech, index in item.stack
+            span= tech
+            if index != item.stack.length - 1
+              =' , '
     .info
       p.colorized= item.location
       p= item.year
-    h2= item.title 
-    if item.secondary
-      h3.secondary= item.secondary
-    h3.uppercase= item.type
-    ul 
-      each mission in item.list
-        +content-list(mission)
-    if item.stack 
-      .block.stack
-        b= "Stack: "
-        each tech, index in item.stack
-          span= tech
-          if index != item.stack.length - 1
-            =' , '
+      img.logo(src=item.logo alt=item.secondary)
 
 mixin education-item(item)
   .content
+    .body
+      h2= item.title
+      if item.secondary
+        h3.secondary= item.secondary
+      h3.uppercase= item.type
+      .flex-list-education
+        ul
+          each educ in item.list
+            +content-list(educ)
     .info
       p.colorized= item.location
       p= item.year
-    h2= item.title
-    if item.secondary
-      h3.secondary= item.secondary
-    h3.uppercase= item.type
-    .flex-list-education
-      ul
-        each educ in item.list
-          +content-list(educ)
     
 
 mixin project-item(item)
@@ -75,8 +78,9 @@ mixin misc-item(item)
 
 mixin publication-item(item)
   .content
+    .content
+      h3= item.title
+      h3.secondary.block= item.secondary
+      h3.right.block= item.code
     .info
       p= item.date
-    h3= item.title
-    h3.secondary.block= item.secondary
-    h3.right.block= item.code
