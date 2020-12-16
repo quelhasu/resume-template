@@ -179,9 +179,9 @@
   "experience": [
     {
       "location": "Nanterre, France",
-      "year": "june 2020 - nov. 2020",
+      "year": "dec. 2020 - may 2021",
       "title": "Data Engineer",
-      "type": "AXA • Intern",
+      "type": "AXA • Contract",
       "list": [
         { "title": "Building the foundations of the ALHIS data architecture based on the Axa France data lake and implementing it"},
         { "title": "Development of the data collection, standardization and analysis pipelines (ETL). Technical challenge due to the diversity of data received, business partners, and resulting use cases"},
@@ -189,6 +189,15 @@
         { "title": "Implementation of fraud detection tools and collaboration with other data teams"}
       ],
       "stack": ["Python" , "Spark" , "Azure" , "git"],
+      "logo": "https://media-exp1.licdn.com/dms/image/C4E0BAQHvJJio0nB9Mw/company-logo_200_200/0?e=1610582400&v=beta&t=WqnQm6PXiRibsyOmvValpt_BHHzJCPc-o3_PUMjfmu0"
+    },
+    {
+      "location": "Nanterre, France",
+      "year": "june 2020 - nov. 2020",
+      "title": "Data Engineer",
+      "type": "AXA • Intern",
+      "list": [],
+      "stack": [],
       "logo": "https://media-exp1.licdn.com/dms/image/C4E0BAQHvJJio0nB9Mw/company-logo_200_200/0?e=1610582400&v=beta&t=WqnQm6PXiRibsyOmvValpt_BHHzJCPc-o3_PUMjfmu0"
     },
     {

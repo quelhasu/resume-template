@@ -93,9 +93,9 @@
   "experience": [
     {
       "location": "Nanterre, France",
-      "year": "juin 2019 - nov. 2020",
+      "year": "dec. 2020 - mai. 2021",
       "title": "Data Engineer",
-      "type": "AXA • Stage",
+      "type": "AXA • CDD",
       "list": [
         { "title": "Construction des fondements de l’architecture data d’ALHIS en s’appuyant sur le data lake d’Axa France et en l’intégrant aux outils actuels"},
         { "title": "Développement des pipelines de collecte, standardisation et analyse de données (ETL). Challenge technique important: diversité des données reçues, des partenaires commerciaux et des cas d’usage qui en résultent"},
@@ -103,6 +103,14 @@
         { "title": "Mise en production des outils de détection de la fraude et collaboration avec d’autres équipes data"}
       ],
       "stack": ["Python" , "Spark" , "Azure" , "git"],
+      "logo": "https://media-exp1.licdn.com/dms/image/C4E0BAQHvJJio0nB9Mw/company-logo_200_200/0?e=1610582400&v=beta&t=WqnQm6PXiRibsyOmvValpt_BHHzJCPc-o3_PUMjfmu0"
+    },
+    {
+      "location": "Nanterre, France",
+      "year": "juin 2020 - nov. 2020",
+      "title": "Data Engineer",
+      "type": "AXA • Stage",
+      "list": [],
       "logo": "https://media-exp1.licdn.com/dms/image/C4E0BAQHvJJio0nB9Mw/company-logo_200_200/0?e=1610582400&v=beta&t=WqnQm6PXiRibsyOmvValpt_BHHzJCPc-o3_PUMjfmu0"
     },
     {
