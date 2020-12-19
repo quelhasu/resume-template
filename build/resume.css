@@ -377,10 +377,10 @@ body > .markdown-preview {
   width: 100%;
 }
 .content .body {
-  width: 70%;
+  width: 75%;
 }
 .content .info {
-  width: 30%;
+  width: 25%;
   font-style: italic;
   text-align: right;
 }

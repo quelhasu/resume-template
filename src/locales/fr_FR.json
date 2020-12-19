@@ -102,7 +102,7 @@
         { "title": "Optimisation des processus de façon à mutualiser le maximum de code, automatiser les tâches, tout en permettant des cas d’usages très variés"},
         { "title": "Mise en production des outils de détection de la fraude et collaboration avec d’autres équipes data"}
       ],
-      "stack": ["Python" , "Spark" , "Azure" , "git"],
+      "stack": ["Python" , "Spark" , "SQL", "Databricks", "Azure" , "Docker", "Git"],
       "logo": "https://media-exp1.licdn.com/dms/image/C4E0BAQHvJJio0nB9Mw/company-logo_200_200/0?e=1610582400&v=beta&t=WqnQm6PXiRibsyOmvValpt_BHHzJCPc-o3_PUMjfmu0"
     },
     {
