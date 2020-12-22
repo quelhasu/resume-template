@@ -308,20 +308,33 @@ body > .markdown-preview {
     padding-inline-start: 25px;
 }
 
+.item-icon{
+    margin-right: .5rem !important;
+    margin-bottom: .2rem !important;
+    color: #c4c4c4;
+}
+
 .content{
     margin-bottom: 15px;
     display:flex;
     width:100%;
+    .icon{
+        width: 5%;
+        margin-right: 0.5rem;
+        .logo{
+            width: 100%;
+            opacity: 0.9;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+    }
     .body{
-        width: 80%;
+        width: 75%;
     }
     .info {
         width: 20%;
         // float: right;
         font-style: italic;
         text-align: right;
-        .logo{
-            width: 50px;
-        }
     }
 }

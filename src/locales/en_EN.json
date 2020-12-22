@@ -41,7 +41,8 @@
         { "title": "Artificial Intelligence", "link":"https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=711769&polij_device_category=DESKTOP&__pj0=0&__pj1=113b4086af55425292f97d29d10c285d"},
         { "title": "Software Engineering", "link": "https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=715472&polij_device_category=DESKTOP&__pj0=0&__pj1=5b80544dccf8b812db7a62c551da2190"},
         {"title" : "Computer Systems Perfomance Evaluation", "link": "https://www4.ceda.polimi.it/manifesti/manifesti/controller/ManifestoPublic.do?EVN_DETTAGLIO_RIGA_MANIFESTO=evento&aa=2019&k_cf=225&k_corso_la=481&k_indir=T2A&codDescr=090945&lang=EN&semestre=1&idGruppo=3925&idRiga=239667"}
-      ]
+      ],
+      "logo": "https://labolfattometrico.chem.polimi.it/wp-content/uploads/2019/12/POLIMI-corretto-6-1024x1024.jpg"
     },
     {
       "location": "La Defense - Paris, France",
@@ -84,7 +85,8 @@
             "Java EE"
           ]
         }
-      ]
+      ],
+      "logo": "https://www.esilv.fr/ecole-ingenieur/logos/logo_esilv_png_couleur.png"
     },
     {
       "location": "Montréal, Canada",
@@ -114,7 +116,8 @@
             "Flask"
           ]
         }
-      ]
+      ],
+      "logo": "https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/p960x960/56917755_10156449320971731_5811305040291299328_o.jpg?_nc_cat=109&ccb=2&_nc_sid=7aed08&_nc_ohc=L_Db7IFAbjYAX99k5Cz&_nc_ht=scontent-cdt1-1.xx&tp=6&oh=bdd93ace2b524d7d9a12ce7bfecb92e7&oe=60074A89"
     },
     {
       "location": "Orsay, France",
@@ -156,7 +159,8 @@
             "Shell"
           ]
         }
-      ]
+      ],
+      "logo": "https://www.universite-paris-saclay.fr/sites/default/files/2020-01/FAC-SCI-D-ORSAY-v-rvb.png"
     }
   ],
   "experience": [
@@ -179,8 +183,7 @@
       "year": "june 2020 - nov. 2020",
       "title": "Data Engineer",
       "type": "AXA • Intern",
-      "list": [],
-      "logo": "https://media-exp1.licdn.com/dms/image/C4E0BAQHvJJio0nB9Mw/company-logo_200_200/0?e=1610582400&v=beta&t=WqnQm6PXiRibsyOmvValpt_BHHzJCPc-o3_PUMjfmu0"
+      "list": []
     },
     {
       "location": "La Defense - Courbevoie, France",
@@ -209,7 +212,7 @@
         }
       ],
       "stack": ["Ionic 2 (AngularJS, Cordova)", "HTML", "Sass", "TypeScript"],
-      "logo": "https://media-exp1.licdn.com/dms/image/C560BAQGcGcbPynKdRw/company-logo_200_200/0?e=1610582400&v=beta&t=_fEhGjO9kAHI4taXdy9pC6HBMvHwr8imKsk80JY4pII"
+      "logo": "https://cdn.welcometothejungle.co/uploads/organization/logo/8398/152949/aubay.jpg"
     }
   ],
   "projects": [
