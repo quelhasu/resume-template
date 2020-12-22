@@ -3,9 +3,9 @@
   "me": {
     "first_name": "Ugo ",
     "last_name": "QUELHAS",
-    "status": "Etudiant ingénieur",
+    "status": "Data Engineer",
     "address": "L'Etang La Ville, 78620 - France",
-    "summary": ""
+    "summary": "En tant que jeune ingénieur diplômé spécialisé dans les données durant ma dernière année au Politecnico di Milano, je veux mettre mes compétences en pratique en alliant le monde de la science des données et du génie logiciel."
   },
   "info": [
     {
@@ -79,15 +79,6 @@
         { "title": "Bases de Données", "skills": ["Merise", "MySQL", "ORACLE"]},
         { "title": "Réseaux, Système Informatique", "skills":["Shell"]}  
       ]
-    },
-    {
-      "location": "Marly-le-Roi, France",
-      "year": "2011 - 2015",
-      "title": "Lycée Louis de Broglie",
-      "type": "Terminale S, Spécialité ISN, Option musique",
-      "list": [
-        { "title": "Informatique et Sciences du Numérique", "skills": ["HTML", "CSS", "JS", "Python"] }
-      ]
     }
   ],
   "experience": [
@@ -139,16 +130,6 @@
       ],
       "stack":["Ionic 2 (AngularJS, Cordova)", "HTML", "Sass", "TypeScript" ],
       "logo": "https://media-exp1.licdn.com/dms/image/C560BAQGcGcbPynKdRw/company-logo_200_200/0?e=1610582400&v=beta&t=_fEhGjO9kAHI4taXdy9pC6HBMvHwr8imKsk80JY4pII"
-    },
-    {
-      "location": "L'Etang-la-Ville, France",
-      "year": "2014 - 2017",
-      "title": "Educateur Sportif (Football)",
-      "type": "ESESN (Entente Sportive Etang Saint-Nom)",
-      "list": [
-        { "title": "Préparation et encadrement", "skills": ["catégorie 6-9 ans"] },
-        { "title": "Stages hebdomadaires", "skills": ["toutes catégories"]}
-      ]    
     }
   ],
   "projects": [

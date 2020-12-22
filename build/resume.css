@@ -129,8 +129,7 @@
 }
 @media print {
   .resume-body {
-    padding: 1em 3em 0 3em !important;
-    max-width: 1000px !important;
+    padding: 1em 3em !important;
   }
 }
 body > .markdown-preview {
@@ -377,10 +376,10 @@ body > .markdown-preview {
   width: 100%;
 }
 .content .body {
-  width: 75%;
+  width: 80%;
 }
 .content .info {
-  width: 25%;
+  width: 20%;
   font-style: italic;
   text-align: right;
 }
