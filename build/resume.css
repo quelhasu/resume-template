@@ -153,8 +153,9 @@ body > .markdown-preview {
   color: var(--color);
 }
 .resume-body #status {
-  margin: 5px 0 4px 0;
+  margin: 0;
   font-weight: 300;
+  font-size: 0.75rem;
 }
 .resume-body #address {
   color: #b1b1b1;
@@ -251,6 +252,9 @@ body > .markdown-preview {
 }
 .resume-body ul {
   margin: 5px 0 9px 0 ;
+}
+.resume-body ul.no-start {
+  padding-inline-start: 1rem;
 }
 .resume-body li {
   font-size: var(--main-font-size);
@@ -368,12 +372,40 @@ body > .markdown-preview {
 }
 .stack {
   font-size: var(--main-font-size);
-  padding-inline-start: 25px;
 }
-.item-icon {
-  margin-right: 0.5rem !important;
-  margin-bottom: 0.2rem !important;
+.fa-icon {
   color: #c4c4c4;
+}
+.flex {
+  display: flex;
+  width: 100%;
+}
+.flex .w20 {
+  width: 20%;
+}
+.flex .w80 {
+  width: 80%;
+}
+.flex .w10 {
+  width: 10%;
+}
+.flex .w90 {
+  width: 90%;
+}
+.mr-2 {
+  margin-right: 0.5rem !important;
+}
+.ml-2 {
+  margin-left: 0.5rem !important;
+}
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+.mb-1 {
+  margin-bottom: 0.2rem !important;
+}
+.mb-2 {
+  margin-bottom: 0.5rem !important;
 }
 .content {
   margin-bottom: 15px;

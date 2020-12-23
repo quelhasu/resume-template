@@ -27,12 +27,12 @@ mixin content-item(item)
         img.logo(src=item.logo alt=item.secondary)
     .body
       h2
-        i(class="fa fa-briefcase item-icon")
+        i(class="fa fa-briefcase mr-2 mb-1 fa-icon")
         =item.title 
       if item.secondary
         h3.secondary= item.secondary
       h3.uppercase= item.type
-      ul 
+      ul.no-start
         each mission in item.list
           +content-list(mission)
       if item.stack 
@@ -44,10 +44,10 @@ mixin content-item(item)
               =' , '
     .info
       p
-        i(class="fa fa-map-marker-alt item-icon")
+        i(class="fa fa-map-marker-alt mr-2 mb-1 fa-icon")
         span.colorized= item.location
       p
-        i(class="fa fa-calendar-alt item-icon")
+        i(class="fa fa-calendar-alt mr-2 mb-1 fa-icon")
         = item.year
 
 mixin education-item(item)
@@ -57,7 +57,7 @@ mixin education-item(item)
         img.logo(src=item.logo alt=item.secondary)
     .body
       h2
-        i(class="fa fa-university item-icon")
+        i(class="fa fa-university mr-2 mb-1 fa-icon")
         =item.title
       if item.secondary
         h3.secondary= item.secondary
@@ -68,10 +68,10 @@ mixin education-item(item)
             +content-list(educ)
     .info
       p
-        i(class="fa fa-map-marker-alt item-icon")
+        i(class="fa fa-map-marker-alt mr-2 mb-1 fa-icon")
         span.colorized= item.location
       p
-        i(class="fa fa-calendar-alt item-icon")
+        i(class="fa fa-calendar-alt mr-2 mb-1 fa-icon")
         = item.year
     
 
@@ -85,19 +85,21 @@ mixin project-item(item)
     p= item.desc
       if item.link
         a(href=item.link target="_blank")
-          i(class=item.fa)
+          i.fa-icon.ml-2(class=item.fa)
     //- h3.secondary= item.desc
 
 mixin misc-item(item)
-  p
-    b= item.title
-    |: #{item.desc}
+  p.flex
+    b.w20= item.title
+    span.w80= item.desc
+      if item.link
+        a(href=item.link target="_blank")
+          i.fa-icon.ml-2(class=item.fa)
 
 mixin publication-item(item)
-  .content
-    .content
-      h3= item.title
-      h3.secondary.block= item.secondary
-      h3.right.block= item.code
-    .info
-      p= item.date
+  .flex
+    h3= item.title
+    h3.secondary.block= item.secondary
+    //- h3.right.block= item.code
+    //- .info
+    //-   p= item.date

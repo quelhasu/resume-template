@@ -33,7 +33,7 @@
       "location": "Milan, Italie",
       "year": "2019 - 2020",
       "title": "Politecnico di Milano",
-      "type": "Master of Science, Ingénierie de l'informatique",
+      "type": "Master of Science, Ingénierie de l'informatique - Échange",
       "list": [
         { "title": "Database", "link":"https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=712312&polij_device_category=DESKTOP&__pj0=0&__pj1=6c76af00289b7297a11114a651a8555e" },
         { "title": "Unstructured and Streaming Data Engineering", "link": "https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=715631&polij_device_category=DESKTOP&__pj0=0&__pj1=0938654c635ec7d8a60f99c032a52fb6"},
@@ -62,7 +62,7 @@
       "location": "Montréal, Canada",
       "year": "2017",
       "title": "UQAM (Université du Québec à Montréal)",
-      "type": "PROGRAMME COURT DE PREMIER CYCLE - ÉCHANGE",
+      "type": "PROGRAMME COURT DE PREMIER CYCLE - Échange",
       "list": [
         { "title": "Développement de logiciel dans un environnement agile", "skills": ["Java"] },
         { "title": "Langages de script et langages dynamique", "skills": ["Ruby", "Python", "Shell"]},
@@ -173,7 +173,7 @@
     {"title": "Espagnol", "desc": "Scolaire"}
   ],
   "interest" : [
-    {"title": "Musique", "desc": "Piano, création musicale via MAO"},
+    {"title": "Musique", "desc": "Piano, création musicale via MAO", "link": "https://soundcloud.com/shamwave", "fa": "fab fa-soundcloud"},
     {"title": "Sport", "desc": "Football (club ESESN), tennis"},
     {"title": "Bénévolat", "desc": "Téléthon, Courir pour Curie"}
   ]
