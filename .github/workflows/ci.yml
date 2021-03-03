@@ -22,7 +22,7 @@ jobs:
     
     strategy:
       matrix:
-        node-version: [14.x]
+        node-version: [14.x]  
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -38,15 +38,10 @@ jobs:
       - run: npm run build
 
       - uses: browser-actions/setup-chrome@latest
-      - run: chrome --headless --disable-gpu --print-to-pdf=build/resume.en_en.pdf --no-margins build/resume.en_en.html
-      - run: chrome --headless --disable-gpu --print-to-pdf=build/resume.fr_fr.pdf --no-margins build/resume.fr_fr.html
+      - run: chrome --headless --disable-gpu --print-to-pdf=build/resume-ugo-quelhas.en_en.pdf --no-margins build/resume.en_en.html
+      - run: chrome --headless --disable-gpu --print-to-pdf=build/resume-ugo-quelhas.fr_fr.pdf --no-margins build/resume.fr_fr.html
 
       - uses: actions/upload-artifact@v2
         with:
-          name: resume-ugo-quelhas.en_en
-          path: build/resume.en_en.pdf
-      
-      - uses: actions/upload-artifact@v2
-        with:
-          name: resume-ugo-quelhas.fr_fr
-          path: build/resume.fr_fr.pdf
+          name: resume-ugo-quelhas
+          path: build/resume?.pdf
