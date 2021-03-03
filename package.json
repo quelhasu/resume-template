@@ -30,6 +30,7 @@
     "gulp-pug": "^4.0.1",
     "gulp-sass": "^4.0.1",
     "gulp-sourcemaps": "^2.6.5",
+    "jspdf": "^2.3.0",
     "pug": "^2.0.3",
     "pug-cli": "^1.0.0-alpha6"
   },

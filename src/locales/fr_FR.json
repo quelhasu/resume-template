@@ -5,7 +5,7 @@
     "last_name": "QUELHAS",
     "status": "Data Engineer",
     "address": "L'Etang La Ville, 78620 - France",
-    "summary": "En tant que jeune ingénieur diplômé spécialisé dans les données durant ma dernière année au Politecnico di Milano, je veux mettre mes compétences en pratique en alliant le monde de la science des données et du génie logiciel."
+    "summary": "En tant que jeune ingénieur diplômé spécialisé dans les données durant ma dernière année à Politecnico di Milano, je veux mettre mes compétences en pratique en alliant le monde de la science des données et du génie logiciel."
   },
   "info": [
     {
@@ -68,7 +68,7 @@
         { "title": "Langages de script et langages dynamique", "skills": ["Ruby", "Python", "Shell"]},
         { "title": "Programmation web avancée", "skills": ["HTML", "CSS", "Flask"]}
       ],
-      "logo": "https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/p960x960/56917755_10156449320971731_5811305040291299328_o.jpg?_nc_cat=109&ccb=2&_nc_sid=7aed08&_nc_ohc=L_Db7IFAbjYAX99k5Cz&_nc_ht=scontent-cdt1-1.xx&tp=6&oh=bdd93ace2b524d7d9a12ce7bfecb92e7&oe=60074A89"
+      "logo": "https://media-exp1.licdn.com/dms/image/C4D0BAQFkTjoB5zokHA/company-logo_200_200/0/1602619644090?e=1622678400&v=beta&t=ecgrRVhbAsKiuRQnmkRG6WaO5rFlzMvXZ4y4dkblZ_A"
     },
     {
       "location": "Orsay, France",
@@ -92,13 +92,13 @@
       "title": "Data Engineer",
       "type": "AXA • CDD",
       "list": [
-        { "title": "Construction des fondements de l’architecture data d’ALHIS en s’appuyant sur le data lake d’Axa France et en l’intégrant aux outils actuels"},
-        { "title": "Développement des pipelines de collecte, standardisation et analyse de données (ETL). Challenge technique important: diversité des données reçues, des partenaires commerciaux et des cas d’usage qui en résultent"},
-        { "title": "Optimisation des processus de façon à mutualiser le maximum de code, automatiser les tâches, tout en permettant des cas d’usages très variés"},
-        { "title": "Mise en production des outils de détection de la fraude et collaboration avec d’autres équipes data"}
+        { "title": "Construction des fondements de l’architecture data d’ALHIS en s’appuyant sur le data lake d’Axa France et en l’intégrant aux outils actuels."},
+        { "title": "Développement des pipelines de collecte, standardisation et analyse de données (ETL). Challenge technique important: diversité des données reçues, des partenaires commerciaux et des cas d’usage qui en résultent."},
+        { "title": "Optimisation des processus de façon à mutualiser le maximum de code, automatiser les tâches, tout en permettant des cas d’usages très variés."},
+        { "title": "Mise en production des outils de détection de la fraude et collaboration avec d’autres équipes data."}
       ],
       "stack": ["Python" , "Spark" , "SQL", "Databricks", "Azure" , "Docker", "Git"],
-      "logo": "https://media-exp1.licdn.com/dms/image/C4E0BAQHvJJio0nB9Mw/company-logo_200_200/0?e=1610582400&v=beta&t=WqnQm6PXiRibsyOmvValpt_BHHzJCPc-o3_PUMjfmu0"
+      "logo": "https://media-exp1.licdn.com/dms/image/C4E0BAQHIyA-PjiFR5g/company-logo_200_200/0/1519908251222?e=1622678400&v=beta&t=OLjLZfc_crZ3BLlu8ZkIFNGxvfRUMHp5uL5MhxCAj1s"
     },
     {
       "location": "Nanterre, France",
@@ -113,15 +113,15 @@
       "title": "Data Engineer",
       "type": "DVRC - De Vinci Research Center • Stage",
       "list": [
-        { "title": "Automatisation des processus d'extraction et de transformation des données"},
-        { "title": "Intégration d'une base de données Neo4j avec des scripts de génération de graphes"},
-        { "title": "Développement d'une API REST pour traiter les données"},
-        { "title": "Développement d'un dashboard interactif pour visualiser les données et faciliter l'analyse"},
-        { "title": "Développement d'un dashboard admin pour gérer les processus et monitorer les bases de données"},
-        { "title": "Virtualisation des micro services dans Docker pour faciliter la réutilisation dans d'autres contextes"}
+        { "title": "Automatisation des processus d'extraction et de transformation des données."},
+        { "title": "Intégration d'une base de données Neo4j avec des scripts de génération de graphes."},
+        { "title": "Développement d'une API REST pour traiter les données."},
+        { "title": "Développement d'un dashboard interactif pour visualiser les données et faciliter l'analyse."},
+        { "title": "Développement d'un dashboard admin pour gérer les processus et monitorer les bases de données."},
+        { "title": "Virtualisation des micro services dans Docker pour faciliter la réutilisation dans d'autres contextes."}
       ],
       "stack": ["MySQL", "Neo4j (ETL)", "Java Spring Boot", "Maven", "Javascript", "React", "Leaflet", "git"],
-      "logo": "https://media-exp1.licdn.com/dms/image/C560BAQF-W57PygYhVw/company-logo_200_200/0?e=1610582400&v=beta&t=njE1JzOT2khvr3SGcUGFZE5HpsIZ9hR66N176I28rDc"
+      "logo": "https://media-exp1.licdn.com/dms/image/C560BAQF-W57PygYhVw/company-logo_200_200/0/1599056486136?e=1622678400&v=beta&t=w_ZPqp01JrTExsyzPPxXcAomDaSpKbtYr2fCR1T3YHI"
     },
     {
       "location": "Boulogne-Billancourt, France",
@@ -129,7 +129,7 @@
       "title": "Développeur mobile hybride",
       "type": "Aubay • Stage",
       "list": [
-        { "title": "Développement application mobile hybride sous Ionic", "skills": ["Ionic 2", "Typescript"]}
+        { "title": "Développement application mobile hybride sous Ionic.", "skills": ["Ionic 2", "Typescript"]}
       ],
       "stack":["Ionic 2 (AngularJS, Cordova)", "HTML", "Sass", "TypeScript" ],
       "logo": "https://cdn.welcometothejungle.co/uploads/organization/logo/8398/152949/aubay.jpg"

@@ -14,5 +14,5 @@ lerna-debug.log
 package-lock.json
 node_modules
 node_modules
-build
-src/locales
+build/
+src/locales/fr_FR_alex.json

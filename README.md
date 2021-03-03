@@ -34,3 +34,8 @@ Change the color, font-size etc. with the CSS var. in `src/style/resume.less` fi
 - `h2`
 - `h3`
 - `main-font-size`: size of all text
+
+## HTML to PDF
+```bash
+$ chrome --headless --disable-gpu --print-to-pdf=path/to/dest --no-margins path/to/html/file
+```

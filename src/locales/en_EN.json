@@ -117,7 +117,7 @@
           ]
         }
       ],
-      "logo": "https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/p960x960/56917755_10156449320971731_5811305040291299328_o.jpg?_nc_cat=109&ccb=2&_nc_sid=7aed08&_nc_ohc=L_Db7IFAbjYAX99k5Cz&_nc_ht=scontent-cdt1-1.xx&tp=6&oh=bdd93ace2b524d7d9a12ce7bfecb92e7&oe=60074A89"
+      "logo": "https://media-exp1.licdn.com/dms/image/C4D0BAQFkTjoB5zokHA/company-logo_200_200/0/1602619644090?e=1622678400&v=beta&t=ecgrRVhbAsKiuRQnmkRG6WaO5rFlzMvXZ4y4dkblZ_A"
     },
     {
       "location": "Orsay, France",
@@ -170,13 +170,13 @@
       "title": "Data Engineer",
       "type": "AXA • Contract",
       "list": [
-        { "title": "Building the foundations of the ALHIS data architecture based on the Axa France data lake and implementing it"},
-        { "title": "Development of the data collection, standardization and analysis pipelines (ETL). Technical challenge due to the diversity of data received, business partners, and resulting use cases"},
-        { "title": "Optimization of processes in order to mutualize the maximum amount of code and automate tasks, while allowing a wide variety of use cases"},
-        { "title": "Implementation of fraud detection tools and collaboration with other data teams"}
+        { "title": "Building the foundations of the ALHIS data architecture based on the Axa France data lake and implementing it."},
+        { "title": "Development of the data collection, standardization and analysis pipelines (ETL). Technical challenge due to the diversity of data received, business partners, and resulting use cases."},
+        { "title": "Optimization of processes in order to mutualize the maximum amount of code and automate tasks, while allowing a wide variety of use cases."},
+        { "title": "Implementation of fraud detection tools and collaboration with other data teams."}
       ],
       "stack": ["Python" , "Spark" , "SQL", "Databricks", "Azure" , "Docker", "Git"],
-      "logo": "https://media-exp1.licdn.com/dms/image/C4E0BAQHvJJio0nB9Mw/company-logo_200_200/0?e=1610582400&v=beta&t=WqnQm6PXiRibsyOmvValpt_BHHzJCPc-o3_PUMjfmu0"
+      "logo": "https://media-exp1.licdn.com/dms/image/C4E0BAQHIyA-PjiFR5g/company-logo_200_200/0/1519908251222?e=1622678400&v=beta&t=OLjLZfc_crZ3BLlu8ZkIFNGxvfRUMHp5uL5MhxCAj1s"
     },
     {
       "location": "Nanterre, France",
@@ -191,15 +191,15 @@
       "title": "Data Engineer",
       "type": "DVRC - De Vinci Research Center • Intern",
       "list": [
-        { "title": "Automation of data extraction and transformation processes"},
-        { "title": "Integration of a Neo4j database with graph generation scripts"},
-        { "title": "Development of a REST API to process business logic"},
-        { "title": "Development of an interactive dashboard to visualize the data and facilitate analysis"},
-        { "title": "Development of an admin dashboard to manage processes and monitor databases"},
-        { "title": "Virtualization of micro services in Docker to facilitate reuse in other contexts"}
+        { "title": "Automation of data extraction and transformation processes."},
+        { "title": "Integration of a Neo4j database with graph generation scripts."},
+        { "title": "Development of a REST API to process business logic."},
+        { "title": "Development of an interactive dashboard to visualize the data and facilitate analysis."},
+        { "title": "Development of an admin dashboard to manage processes and monitor databases."},
+        { "title": "Virtualization of micro services in Docker to facilitate reuse in other contexts."}
       ],
       "stack": ["MySQL", "Neo4j (ETL)", "Java Spring Boot", "Maven", "Javascript", "React", "Leaflet", "git"],
-      "logo": "https://media-exp1.licdn.com/dms/image/C560BAQF-W57PygYhVw/company-logo_200_200/0?e=1610582400&v=beta&t=njE1JzOT2khvr3SGcUGFZE5HpsIZ9hR66N176I28rDc"
+      "logo": "https://media-exp1.licdn.com/dms/image/C560BAQF-W57PygYhVw/company-logo_200_200/0/1599056486136?e=1622678400&v=beta&t=w_ZPqp01JrTExsyzPPxXcAomDaSpKbtYr2fCR1T3YHI"
     },
     {
       "location": "Boulogne-Billancourt, France",
@@ -208,7 +208,7 @@
       "type": "Aubay • Intern",
       "list": [
         {
-          "title": "Development of a cross-platform mobile application with the Ionic framework in Agile environment"
+          "title": "Development of a cross-platform mobile application with the Ionic framework in Agile environment. iy"
         }
       ],
       "stack": ["Ionic 2 (AngularJS, Cordova)", "HTML", "Sass", "TypeScript"],
