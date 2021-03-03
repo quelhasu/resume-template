@@ -4,7 +4,7 @@
   "description": "<main class=\"markdown-body\">",
   "main": "resume.pug",
   "scripts": {
-    "setup": "npm install && gulp && echo \"\n✅ Installation finished, open index.html to see your website\"",
+    "setup": "npm install && echo \"\n✅ Installation finished\"",
     "dev": "gulp dev",
     "demo": "cp -R ./build/* ./docs && sed -i '' 's/\\.\\{2\\}.build/\\./g' docs/index.html",
     "build": "gulp"
