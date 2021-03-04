@@ -2,7 +2,7 @@
 > Resume template with pug
 
 ## Example
-![Resume example](CV_Ugo_QUELHAS.png)
+![Resume example](resume-ugo-quelhas.en_en.png)
 
 ## Usage
 Install all dependencies and run gulp:
