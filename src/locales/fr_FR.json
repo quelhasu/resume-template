@@ -2,31 +2,13 @@
   "title": "CV_Ugo_QUELHAS",
   "me": {
     "first_name": "Ugo ",
-    "last_name": "QUELHAS",
+    "last_name": "",
     "status": "Data Engineer",
-    "address": "L'Etang La Ville, 78620 - France",
+    "address": "",
     "summary": "En tant que jeune ingénieur diplômé spécialisé dans les données durant ma dernière année à Politecnico di Milano, je veux mettre mes compétences en pratique en alliant le monde de la science des données et du génie logiciel."
   },
   "info": [
-    {
-      "fa": "fas fa-mobile-alt",
-      "value": " (+33) 6 23 74 80 96"
-    },
-    {
-      "fa": "fas fa-envelope",
-      "value": " ugo.quelhas@edu.devinci.fr",
-      "href": "mailto:ugo.quelhas@edu.devinci.fr"
-    },
-    {
-      "fa": "fab fa-github",
-      "value": " @quelhasu",
-      "href": "https://github.com/quelhasu"
-    },
-    {
-      "fa": "fab fa-linkedin",
-      "value": " quelhasugo",
-      "href": "https://www.linkedin.com/in/quelhasugo/"
-    }
+    
   ],
   "education": [
     {
@@ -136,37 +118,10 @@
     }
   ],
   "projects": [
-    {
-      "title": "Neo4Tourism",
-      "fa": "fab fa-github",
-      "link": "https://github.com/quelhasu/tourism-dashboard",
-      "desc" :"Framework sous Docker développé durant le stage de 4ème année (Dashboard, API,  Database,...)."
-    },
-    {
-      "title": "JQuiz",
-      "fa": "fab fa-github",
-      "link": "https://github.com/quelhasu/jquiz",
-      "desc" :"Projet personnel, plateforme de création et lecture de quiz en format JSON."
-    },
-    {
-      "title": "Castle",
-      "fa": "fab fa-github",
-      "link": "https://github.com/quelhasu/castle-client",
-      "desc" :"Projet de scraping, transformation et affichage des données du site Relais & Chateaux."    },
-    {
-      "title": "Minute Geek",
-      "fa": "fas fa-globe",
-      "desc" :"Projet personnel, création d’un site internet d’actualité.",
-      "link": "http://web.archive.org/web/20180320093532/http://www.minutegeek.fr/"
-    }
+    
   ],
   "publication": [
-    {
-      "title": "G. Chareyron, U. Quelhas et N. Travers, «Neo4Tourism - A framework for Graph Data Analysis on Tourism», 35ème Conférence sur la Gestion de Données – Principes, Technologies et Applications. (BDA’19) - pp. 1-5, octobre 2019. Lyon, France",
-      "date": "",
-      "code": "",
-      "secondary": ""
-    }
+    
   ],
   "languages": [
     {"title": "Anglais", "desc": "Lu, parlé, écrit"},
