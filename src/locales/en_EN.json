@@ -1,9 +1,17 @@
 {
+  "sub":{
+    "education": "EDUCATION",
+    "experiences": "EXPERIENCES",
+    "publications": "PUBLICATIONS",
+    "projects": "PROJECTS",
+    "languages": "LANGUAGES",
+    "hobbies": "HOBBIES"
+  },
   "title": "Resume_Ugo_QUELHAS",
   "me": {
     "first_name": "Ugo ",
     "last_name": "QUELHAS",
-    "status": "Data Engineer",
+    "status": "Data Engineer @ Axa • Researching for a job starting in December 2020 in Data",
     "address": "L'Etang La Ville, 78620 - France",
     "summary": "As a young graduated engineer specialized in data during my last year at Politecnico di Milano, I want to put my skills into practice by allying the world of Data Science and Software Engineering."
   },
@@ -232,12 +240,7 @@
       "title": "Castle",
       "fa": "fab fa-github",
       "link": "https://github.com/quelhasu/castle-client",
-      "desc" :"Scraping project, transformation and display of data from the Relais & Chateaux website."    },
-    {
-      "title": "Minute Geek",
-      "fa": "fas fa-globe",
-      "desc" :"Personal project, creation of a news website.",
-      "link": "http://web.archive.org/web/20180320093532/http://www.minutegeek.fr/"
+      "desc" :"Scraping project, transformation and display of data from the Relais & Chateaux website."    
     }
   ],
   "publication": [

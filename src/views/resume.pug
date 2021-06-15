@@ -26,35 +26,35 @@ html
 
         if $localeName.includes("fr_FR")
             h1 
-                span.colorized EDU
-                | CATION
+                span.colorized= $t.sub.education.substr(0,3)
+                = $t.sub.education.substr(3)
             each item in $t.education 
                 +education-item(item)
 
         h1 
-            span.colorized EXP
-            | ERIENCES
+            span.colorized= $t.sub.experiences.substr(0,3)
+            = $t.sub.experiences.substr(3)
         each item in $t.experience
             +content-item(item)
 
         if $localeName == "en_EN"
             h1 
-                span.colorized EDU
-                | CATION
+                span.colorized= $t.sub.education.substr(0,3)
+                = $t.sub.education.substr(3)
             each item in $t.education 
                     +education-item(item)
 
         if $t.publication
             h1
-                span.colorized PUB
-                | LICATION
+                span.colorized= $t.sub.publications.substr(0,3)
+                = $t.sub.publications.substr(3)
             each item in $t.publication
                 +publication-item(item)    
 
         if $t.projects
             h1
-                span.colorized PRO
-                | JECTS
+                span.colorized= $t.sub.projects.substr(0,3)
+                = $t.sub.projects.substr(3)
             .inline
                 each item in $t.projects
                     +project-item(item)
@@ -62,13 +62,13 @@ html
         .misc
             .first-box
                 h1
-                    span.colorized LAN
-                    | GUAGES
+                    span.colorized= $t.sub.languages.substr(0,3)
+                    = $t.sub.languages.substr(3)
                 each item in $t.languages 
                     +misc-item(item)
             .second-box
                 h1
-                    span.colorized HOB
-                    | BIES
+                    span.colorized= $t.sub.hobbies.substr(0,3)
+                    = $t.sub.hobbies.substr(3)
                 each item in $t.interest 
                     +misc-item(item)

@@ -1,10 +1,18 @@
 {
+  "sub":{
+    "education": "FORMATION",
+    "experiences": "EXPERIENCES",
+    "publications": "PUBLICATIONS",
+    "projects": "PROJETS",
+    "languages": "LANGUES",
+    "hobbies": "HOBBIES"
+  },
   "title": "CV_Alex_QUELHAS",
   "me": {
     "first_name": "Alexandre ",
     "last_name": "QUELHAS",
     "status": "",
-    "address": "Ecole Nationale Supérieure de Chimie de Rennes, Unniv Rennes, Institut des Sciences Chimiques de Rennes (CNRS)",
+    "address": "Ecole Nationale Supérieure de Chimie de Rennes, Unniv Rennes 1, Institut des Sciences Chimiques de Rennes (CNRS)",
     "summary": ""
   },
   "info": [
@@ -14,8 +22,8 @@
     },
     {
       "fa": "fas fa-envelope",
-      "value": " alexandre.quelhas@esnc-rennes.fr",
-      "href": "mailto:alexandre.quelhas@esnc-rennes.fr"
+      "value": " alexandre.quelhas@ensc-rennes.fr",
+      "href": "mailto:alexandre.quelhas@ensc-rennes.fr"
     },
     {
       "fa": "fab fa-linkedin",
