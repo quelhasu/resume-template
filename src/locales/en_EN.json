@@ -11,7 +11,7 @@
   "me": {
     "first_name": "Ugo ",
     "last_name": "QUELHAS",
-    "status": "Data Engineer @ Axa • Researching for a job starting in December 2020 in Data",
+    "status": "Former Data Engineer @ Axa • Researching for a job in Data",
     "address": "L'Etang La Ville, 78620 - France",
     "summary": "As a young graduated engineer specialized in data during my last year at Politecnico di Milano, I want to put my skills into practice by allying the world of Data Science and Software Engineering."
   },
@@ -125,7 +125,7 @@
           ]
         }
       ],
-      "logo": "https://media-exp1.licdn.com/dms/image/C4D0BAQFkTjoB5zokHA/company-logo_200_200/0/1602619644090?e=1622678400&v=beta&t=ecgrRVhbAsKiuRQnmkRG6WaO5rFlzMvXZ4y4dkblZ_A"
+      "logo": "https://media-exp1.licdn.com/dms/image/C4D0BAQFkTjoB5zokHA/company-logo_200_200/0/1602619644090?e=1632960000&v=beta&t=2gvgweu68E90hpxNMkpS7zUAWZKGDclkfTklpUXmnXg"
     },
     {
       "location": "Orsay, France",
@@ -187,7 +187,7 @@
 
       ],
       "stack": ["Python" , "Spark" , "SQL", "Databricks", "Azure" , "Git", "Docker", "PyTest"],
-      "logo": "https://media-exp1.licdn.com/dms/image/C4E0BAQHIyA-PjiFR5g/company-logo_200_200/0/1519908251222?e=1622678400&v=beta&t=OLjLZfc_crZ3BLlu8ZkIFNGxvfRUMHp5uL5MhxCAj1s"
+      "logo": "https://media-exp1.licdn.com/dms/image/C4D0BAQGAsVEEdkQRGg/company-logo_200_200/0/1589821547937?e=1632960000&v=beta&t=8jTv2GYRIiOskSSiYQ2TZjUVjeUUeY9aWRULRPKyrGI"
     },
     {
       "location": "Nanterre, France",
@@ -210,7 +210,7 @@
         { "title": "Virtualization of micro services in Docker to facilitate reuse in other contexts."}
       ],
       "stack": ["MySQL", "Neo4j (ETL)", "Java Spring Boot", "Maven", "Javascript", "React", "Leaflet", "git"],
-      "logo": "https://media-exp1.licdn.com/dms/image/C560BAQF-W57PygYhVw/company-logo_200_200/0/1599056486136?e=1622678400&v=beta&t=w_ZPqp01JrTExsyzPPxXcAomDaSpKbtYr2fCR1T3YHI"
+      "logo": "https://media-exp1.licdn.com/dms/image/C560BAQF-W57PygYhVw/company-logo_200_200/0/1599056486136?e=1632960000&v=beta&t=a4sAf-MdI7LW4uzBKgbq2CFwsQvYQPnIC4d8yw4_TxQ"
     },
     {
       "location": "Boulogne-Billancourt, France",
