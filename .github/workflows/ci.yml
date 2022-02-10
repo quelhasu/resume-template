@@ -45,3 +45,7 @@ jobs:
         with:
           name: resume-ugo-quelhas
           path: build/resume*.pdf
+
+      - name: GH Release
+        uses: softprops/action-gh-release@v0.1.14
+
