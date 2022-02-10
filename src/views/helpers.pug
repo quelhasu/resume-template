@@ -79,10 +79,10 @@ mixin education-item(item)
 
 mixin project-item(item)
   if item.link
-    h2.project_date.block
+    h3.project_date.block
       a(href= item.link target="_blank") #{item.title}
   else
-    h2.project_date.block= item.date
+    h3.project_date.block= item.date
   div.project_desc.block
     p= item.desc
       if item.link

@@ -22,6 +22,21 @@ npm run dev
 
 ## Customization
 
+### Content size
+If the size of the CV exceeds one page, change this part in the `resume.less` file.
+```less
+@media print {
+    @page {
+        size: A4;   
+        margin: 0;
+    }
+    body{
+        margin: 1em 1.5em; //<--- if the marge are too large / small
+        zoom: .87; //<--- increase or decrease this value
+    }
+}
+```
+
 ### Content
 Modify `locales/*` files to change the resume content.
 
