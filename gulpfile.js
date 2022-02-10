@@ -11,9 +11,10 @@ var path = require('path');
 var data = require('gulp-data');
 var pugI18n = require('gulp-i18n-pug');
 
+var fs = require('fs');
+
 var source = './src';
 var destination = './build';
-
 
 gulp.task('html', function () {
   var options = {
@@ -27,9 +28,6 @@ gulp.task('html', function () {
   };
   return gulp
     .src(source + "/views/resume.pug")
-    // .pipe(data(function(file) {
-    //   return require(source + '/info.json');
-    // }))
     .pipe(pugI18n(options))
     // .pipe(pug())
     .pipe(prettify())
@@ -72,6 +70,7 @@ gulp.task('image', function () {
 gulp.task('watch', function () {
   gulp.watch([source + '/sass/*.sass', source + '/sass/*.css', source + '/sass/*.scss'], gulp.series('sass'));
   gulp.watch(source + '/views/*.pug', gulp.series(['html']));
+  gulp.watch(source + '/locales/*', gulp.series('html'));
   gulp.watch(source + '/style/*.less', gulp.series('less'));
   gulp.watch(source + '/js/*.js', gulp.series('js'));
   gulp.watch(source + '/img/*', gulp.series('image'));

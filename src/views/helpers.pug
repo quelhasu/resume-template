@@ -39,6 +39,8 @@ mixin content-item(item)
         .block.stack
           b= "Stack: "
           each tech, index in item.stack
+            if $t.logos[`${tech}`]
+              img.logo(class="logo-tech", src=$t.logos[`${tech}`])
             span= tech
             if index != item.stack.length - 1
               =' , '
