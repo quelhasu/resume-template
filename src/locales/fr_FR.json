@@ -101,7 +101,9 @@
       "title": "Data Engineer",
       "type": "Comet • CDI",
       "list": [
-        { "title": "Gestion de l'infrastructure de fiabilité des données." }
+        { "title": "Assurer l’évolution, la fiabilité, la résilience et la scalabilité de l'infrastructure des données."},
+        { "title": "Collaboration avec les équipes pour répondre aux besoins d'une verticale métier."},
+        { "title": "Définition et implémentation de méthodes de growth hacking dans le but d'augmenter la qualité et la quantité de la supply." }
       ],
       "stack": ["BigQuery", "Airflow", "dbt", "Docker", "Kubernetes", "AWS", "DataStudio"],
       "logo": "https://media-exp1.licdn.com/dms/image/C560BAQFJOVDEEO-uHQ/company-logo_200_200/0/1625236784417?e=1652313600&v=beta&t=nQslNZTXdG2TkhJR0YjHHQggVqositURISJ_bjJszo0"

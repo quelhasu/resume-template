@@ -179,7 +179,9 @@
       "title": "Data Engineer",
       "type": "Comet • CDI",
       "list": [
-        { "title": " Management of the data reliability infrastructure." }
+        { "title": "Ensure the scalability, reliability, resilience and scalability of the data infrastructure."},
+        { "title": "Collaborate closely with teams to satisfy the needs of a vertical business."},
+        { "title": "Definition and implementation of growth hacking methods in order to increase the quality and quantity of the supply." }
       ],
       "stack": ["BigQuery", "Airflow", "dbt", "Docker", "Kubernetes", "AWS", "DataStudio"],
       "logo": "https://media-exp1.licdn.com/dms/image/C560BAQFJOVDEEO-uHQ/company-logo_200_200/0/1625236784417?e=1652313600&v=beta&t=nQslNZTXdG2TkhJR0YjHHQggVqositURISJ_bjJszo0"
