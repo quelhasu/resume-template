@@ -53,10 +53,10 @@ mixin content-item(item)
         = item.year
 
 mixin education-item(item)
-  .content
-    .icon
-      if item.logo
-        img.logo(src=item.logo alt=item.secondary)
+  .content-aside
+    //- .icon
+    //-   if item.logo
+    //-     img.logo(src=item.logo alt=item.secondary)
     .body
       h2
         i(class="fa fa-university mr-2 mb-1 fa-icon")
@@ -64,17 +64,17 @@ mixin education-item(item)
       if item.secondary
         h3.secondary= item.secondary
       h3.uppercase= item.type
-      .flex-list-education
-        ul
-          each educ in item.list
-            +content-list(educ)
-    .info
-      p
-        i(class="fa fa-map-marker-alt mr-2 mb-1 fa-icon")
-        span.colorized= item.location
-      p
-        i(class="fa fa-calendar-alt mr-2 mb-1 fa-icon")
-        = item.year
+      //- .flex-list-education
+      //-   ul
+      //-     each educ in item.list
+      //-       +content-list(educ)
+      .info
+        p
+          i(class="fa fa-map-marker-alt mr-2 mb-1 fa-icon")
+          span.colorized= item.location
+        p
+          i(class="fa fa-calendar-alt mr-2 mb-1 fa-icon")
+          = item.year
     
 
 mixin project-item(item)
@@ -91,9 +91,9 @@ mixin project-item(item)
     //- h3.secondary= item.desc
 
 mixin misc-item(item)
-  p.flex
-    b.w20= item.title
-    span.w80= item.desc
+  p.flex.content
+    b.flex-1= item.title
+    span.flex-3= item.desc
       if item.link
         a(href=item.link target="_blank")
           i.fa-icon.ml-2(class=item.fa)

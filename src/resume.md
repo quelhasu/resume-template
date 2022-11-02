@@ -11,7 +11,7 @@
 <div class="personnal-info flex-list">
     <ul>
         <li><i class="fas fa-mobile-alt"></i> (+33) 6 23 74 80 96</li>
-        <li><i class="fas fa-envelope"></i> ugo.quelhas@devinci.fr</li>
+        <li><i class="fas fa-envelope"></i> uquelhas@gmail.com</li>
         <li><i class="fab fa-github"></i> @quelhasu</li>
         <li><i class="fab fa-linkedin"></i> quelhasugo</li>
     </ul>

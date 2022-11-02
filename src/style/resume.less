@@ -1,7 +1,7 @@
 :root {
     --primary: #0281CB;
     --color: #404040;
-    --name: 18pt;
+    --name: 20pt;
     --h1: 12pt;
     --h2: 9pt;
     --h3: 7pt;
@@ -35,6 +35,9 @@ body > .markdown-preview {
 .resume-body {
     font-family: 'Roboto', sans-serif !important;
     height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .resume-body .banner {
@@ -54,18 +57,20 @@ body > .markdown-preview {
 
 .resume-body #status {
     // margin: 5px 0 4px 0;
-    margin: 0;
+    margin: 1% 0;
     font-weight: 300;
     font-size: 0.75rem;
 }
 
 .resume-body #address {
     color: #b1b1b1;
-    margin: 1%;
+    // margin: 1%;
+    margin-top:1%;
     font-style: italic;
 }
 
 .resume-body #name {
+    letter-spacing: .1rem;
     margin-top: 0;
     margin-bottom: 0;
     font-size: var(--name);
@@ -78,6 +83,27 @@ body > .markdown-preview {
         font-weight: bold;
         color: rgb(80, 80, 80);
     }
+}
+
+.resume-body .section {
+    margin-bottom: 0.8rem;
+}
+
+.resume-body #experiences {
+    h1 {
+        margin-bottom: 0.8rem;
+    }
+    // flex: 0 0 70%;
+    padding-right: 2%;
+}
+
+.resume-body #right-panel {
+    h1 {
+        margin-bottom: 0.8rem;
+    }
+    border-left: 1px solid rgba(0,0,0,.08);
+    padding-left: 2%;
+    // flex: 0 0 30%;
 }
 
 .resume-body .colorized {
@@ -130,13 +156,14 @@ body > .markdown-preview {
     overflow: hidden;
     border-bottom-width: 0;
     letter-spacing: 2px;
+    margin: 0
 }
 
 .resume-body h1:after {
     display: inline-block;
     content: "";
     height: 1px;
-    background: #717171;
+    background: rgba(0,0,0,.1);
     position: absolute;
     width: 100%;
     top: 50%;
@@ -233,24 +260,43 @@ body > .markdown-preview {
 .resume-body .flex-list {
     position: relative;
     overflow: hidden;
-    width: 85%;
-    margin: 0 auto;
+    // width: 85%;
+    // margin: 0 auto;
+}
+.resume-body .left-header {
+    flex: 0 0 66%;
+    text-align: left;
+    padding: 10px 15px 0 15px
+}
+.resume-body .right-header {
+    flex: 0 0 33%;
+    text-align: left;
+    padding: 10px 15px 0 15px
 }
 .resume-body .flex-list ul {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 5px;
     list-style: none;
+    border-left: 1px solid rgba(0,0,0,.08);
 }
+
+.resume-body hr {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
 .resume-body .flex-list li {
     flex-grow: 1;
     flex-basis: auto;
-    margin: .25em 0;
+    margin: .5em 0;
     padding: 0 1em;
-    text-align: center;
-    border-left: 1px solid #ccc;
+    // text-align: center;
+    // border-left: 1px solid #ccc;
     background-color: #fff;
 
     &:first-child{
@@ -344,6 +390,8 @@ h3.project_date{
     .w80{ width: 80%; }
     .w10{ width: 10%; }
     .w90{ width: 90%; }
+    &-1{ flex: 0 0 33%; }
+    &-3{ flex: 0 0 66%; }
 }
 
 .mr{
@@ -362,6 +410,27 @@ h3.project_date{
     margin-bottom: 15px;
     display:flex;
     width:100%;
+    &-aside{
+        margin-bottom: 15px;
+        display:flex;
+        width:100%;
+        .info{
+            display: flex;
+            p{
+                flex: 0 0 50%;
+            }
+        }
+        .icon{
+            flex: 0 0 5%;
+            margin-right: 0.5rem;
+            .logo{
+                width: 100%;
+                opacity: 0.9;
+                border-radius: 5px;
+                border: 1px solid #ccc;
+            }
+        }
+    }
     .logo{
         &-tech{
             width: 2%;
@@ -369,7 +438,7 @@ h3.project_date{
         }
     };
     .icon{
-        width: 5%;
+        flex: 0 0 5%;
         margin-right: 0.5rem;
         .logo{
             width: 100%;
@@ -379,10 +448,10 @@ h3.project_date{
         }
     }
     .body{
-        width: 75%;
+        flex: 0 0 75%;
     }
     .info {
-        width: 20%;
+        flex: 0 0 20%;
         // float: right;
         font-style: italic;
         text-align: right;

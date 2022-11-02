@@ -11,62 +11,57 @@ html
         link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous")
     main.resume-body
         header.center
-            p(id="name")  
-                span.light= $t.me.first_name
-                span.bold= $t.me.last_name
-            h3.colorized(id="status")= $t.me.status
-            p(id="address")= $t.me.address
+            div.inline
+                div.left-header
+                    p(id="name")  
+                        span.light= $t.me.first_name
+                        span.bold= $t.me.last_name
+                    h3.colorized(id="status")= $t.me.status
+                    p(id="address")= $t.me.address
 
-            .personnal-info.flex-list
-                ul 
-                    each item in $t.info
-                        +info-item(item)
-            
+                .personnal-info.flex-list.right-header
+                    ul 
+                        each item in $t.info
+                            +info-item(item)
+            hr
             p(id="summary")= $t.me.summary
 
-        if $localeName.includes("fr_FR")
+        //- if $localeName.includes("fr_FR")
+        //-     h1 
+        //-         span.colorized= $t.sub.education.substr(0,3)
+        //-         = $t.sub.education.substr(3)
+        //-     each item in $t.education 
+        //-         +education-item(item)
+    
+        div.flex-3.section(id="experiences")
             h1 
-                span.colorized= $t.sub.education.substr(0,3)
-                = $t.sub.education.substr(3)
-            each item in $t.education 
-                +education-item(item)
+                span.colorized= $t.sub.experiences.substr(0,3)
+                = $t.sub.experiences.substr(3)
+            each item in $t.experience
+                +content-item(item)
 
-        h1 
-            span.colorized= $t.sub.experiences.substr(0,3)
-            = $t.sub.experiences.substr(3)
-        each item in $t.experience
-            +content-item(item)
+            if $t.publication
+                h1
+                    span.colorized= $t.sub.publications.substr(0,3)
+                    = $t.sub.publications.substr(3)
+                each item in $t.publication
+                    +publication-item(item)    
 
-        if $localeName == "en_EN"
-            h1 
-                span.colorized= $t.sub.education.substr(0,3)
-                = $t.sub.education.substr(3)
-            each item in $t.education 
-                    +education-item(item)
-
-        if $t.publication
-            h1
-                span.colorized= $t.sub.publications.substr(0,3)
-                = $t.sub.publications.substr(3)
-            each item in $t.publication
-                +publication-item(item)    
-
-        if $t.projects
-            h1
-                span.colorized= $t.sub.projects.substr(0,3)
-                = $t.sub.projects.substr(3)
-            .inline
-                each item in $t.projects
-                    +project-item(item)
-
-        .misc
-            .first-box
+        //- if $localeName == "en_EN"
+        div.flex-1(id="right-panel")
+            div.section
+                h1 
+                    span.colorized= $t.sub.education.substr(0,3)
+                    = $t.sub.education.substr(3)
+                each item in $t.education 
+                        +education-item(item)
+            div.section
                 h1
                     span.colorized= $t.sub.languages.substr(0,3)
                     = $t.sub.languages.substr(3)
                 each item in $t.languages 
-                    +misc-item(item)
-            .second-box
+                        +misc-item(item)
+            div.section
                 h1
                     span.colorized= $t.sub.hobbies.substr(0,3)
                     = $t.sub.hobbies.substr(3)
