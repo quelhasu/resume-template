@@ -26,9 +26,17 @@ mixin content-item(item)
       if item.logo
         img.logo(src=item.logo alt=item.secondary)
     .body
-      h2
-        i(class="fa fa-briefcase mr-2 mb-1 fa-icon")
-        =item.title 
+      .flex
+        h2.flex-50
+          i(class="fa fa-briefcase mr-2 mb-1 fa-icon")
+          =item.title 
+        .info.flex-50
+          p
+            i(class="fa fa-map-marker-alt mr-2 mb-1 fa-icon")
+            span.colorized= item.location
+          p
+            i(class="fa fa-calendar-alt mr-2 mb-1 fa-icon")
+            = item.year
       if item.secondary
         h3.secondary= item.secondary
       h3.uppercase= item.type
@@ -44,13 +52,6 @@ mixin content-item(item)
             span= tech
             if index != item.stack.length - 1
               =' , '
-    .info
-      p
-        i(class="fa fa-map-marker-alt mr-2 mb-1 fa-icon")
-        span.colorized= item.location
-      p
-        i(class="fa fa-calendar-alt mr-2 mb-1 fa-icon")
-        = item.year
 
 mixin education-item(item)
   .content-aside
@@ -100,8 +101,8 @@ mixin misc-item(item)
 
 mixin publication-item(item)
   .flex
-    h3= item.title
-    h3.secondary.block= item.secondary
+    p= item.title
+    p.secondary.block= item.secondary
     //- h3.right.block= item.code
     //- .info
     //-   p= item.date

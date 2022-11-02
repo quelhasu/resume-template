@@ -10,16 +10,16 @@ html
         link(rel='stylesheet', href='resume.css',  type="text/css")
         link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous")
     main.resume-body
-        header.center
+        header.center.flex-full
             div.inline
-                div.left-header
+                div.left-header.flex-3
                     p(id="name")  
                         span.light= $t.me.first_name
                         span.bold= $t.me.last_name
                     h3.colorized(id="status")= $t.me.status
                     p(id="address")= $t.me.address
 
-                .personnal-info.flex-list.right-header
+                .personnal-info.flex-list.right-header.flex-1
                     ul 
                         each item in $t.info
                             +info-item(item)

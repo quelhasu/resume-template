@@ -2,10 +2,10 @@
     --primary: #0281CB;
     --color: #404040;
     --name: 20pt;
-    --h1: 12pt;
-    --h2: 9pt;
-    --h3: 7pt;
-    --main-font-size: 7pt;
+    --h1: 1rem;
+    --h2: 0.9rem;
+    --h3: 0.8rem;
+    --main-font-size: .65rem;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,800');
@@ -13,12 +13,12 @@
 
 @media print {
     @page {
-        size: A4;   
+        size: A1;   
         margin: 0;
     }
     body{
         margin: 1em 1.5em;
-        zoom: .87;
+        zoom: .98;
     }
     .resume-body {
         // padding: 1em 3em 0 3em !important; // min-width: 200px ;
@@ -38,6 +38,7 @@ body > .markdown-preview {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-content: flex-start;
 }
 
 .resume-body .banner {
@@ -53,6 +54,7 @@ body > .markdown-preview {
     text-align: justify;
     text-justify: inter-word;
     color: var(--color);
+    margin: 1.5rem 0;
 }
 
 .resume-body #status {
@@ -191,7 +193,8 @@ body > .markdown-preview {
 }
 
 .resume-body p {
-    margin: 0 !important;
+    // margin: 0 !important;
+    margin: 0;
     font-size: var(--main-font-size);
 }
 
@@ -264,12 +267,10 @@ body > .markdown-preview {
     // margin: 0 auto;
 }
 .resume-body .left-header {
-    flex: 0 0 66%;
     text-align: left;
     padding: 10px 15px 0 15px
 }
 .resume-body .right-header {
-    flex: 0 0 33%;
     text-align: left;
     padding: 10px 15px 0 15px
 }
@@ -391,7 +392,9 @@ h3.project_date{
     .w10{ width: 10%; }
     .w90{ width: 90%; }
     &-1{ flex: 0 0 33%; }
-    &-3{ flex: 0 0 66%; }
+    &-3{ flex: 0 0 67%; }
+    &-full{ flex: 0 0 100%; }
+    &-50{ flex: 0 0 50%;}
 }
 
 .mr{
@@ -407,11 +410,11 @@ h3.project_date{
 }
 
 .content{
-    margin-bottom: 15px;
+    margin-bottom: 1rem;
     display:flex;
     width:100%;
     &-aside{
-        margin-bottom: 15px;
+        margin-bottom: 0.77rem;
         display:flex;
         width:100%;
         .info{
@@ -448,10 +451,10 @@ h3.project_date{
         }
     }
     .body{
-        flex: 0 0 75%;
+        flex: 0 0 95%;
     }
     .info {
-        flex: 0 0 20%;
+        // flex: 0 0 20%;
         // float: right;
         font-style: italic;
         text-align: right;
