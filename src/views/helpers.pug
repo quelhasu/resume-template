@@ -62,6 +62,9 @@ mixin education-item(item)
       h2
         i(class="fa fa-university mr-2 mb-1 fa-icon")
         =item.title
+      if item.secondary
+        h3.secondary= item.secondary
+      h3.uppercase= item.type
       .info
         p
           i(class="fa fa-map-marker-alt mr-2 mb-1 fa-icon")
@@ -69,9 +72,6 @@ mixin education-item(item)
         p
           i(class="fa fa-calendar-alt mr-2 mb-1 fa-icon")
           = item.year
-      if item.secondary
-        h3.secondary= item.secondary
-      h3.uppercase= item.type
       //- .flex-list-education
       //-   ul
       //-     each educ in item.list
@@ -93,8 +93,8 @@ mixin project-item(item)
 
 mixin misc-item(item)
   p.flex.content
-    b.flex-1= item.title
-    span.flex-3= item.desc
+    b.flex-2= item.title
+    span.flex-sg-1= item.desc
       if item.link
         a(href=item.link target="_blank")
           i.fa-icon.ml-2(class=item.fa)

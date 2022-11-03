@@ -4,7 +4,9 @@
     --name: 2.3rem;
     --h1: 1rem;
     --h2: 0.9rem;
+    --h2-aside: 0.77rem;
     --h3: 0.8rem;
+    --h3-aside: 0.66rem;
     --main-font-size: .65rem;
 }
 
@@ -13,12 +15,12 @@
 
 @media print {
     @page {
-        size: A1;   
+        size: A4;   
         margin: 0;
     }
     body{
         margin: 1em 1.5em;
-        zoom: .99;
+        zoom: 1;
     }
     .resume-body {
         // padding: 1em 3em 0 3em !important; // min-width: 200px ;
@@ -54,7 +56,7 @@ body > .markdown-preview {
     text-align: justify;
     text-justify: inter-word;
     color: var(--color);
-    margin: 1.5rem 0;
+    margin: 0.66rem 0;
 }
 
 .resume-body #status {
@@ -174,18 +176,36 @@ body > .markdown-preview {
     margin-left: 10px;
 }
 
-.resume-body h2 {
-    font-size: var(--h2);
-    margin: 0;
-    color: #333;
+.resume-body {
+    .content-aside h2{
+        font-size: var(--h2-aside);
+        margin: 0;
+        color: #333;
+    }
+
+    h2{
+        font-size: var(--h2);
+        margin: 0;
+        color: #333;
+    }
 }
 
-.resume-body h3 {
-    margin-bottom: 2px;
-    margin-top: 2px;
-    font-size: var(--h3);
-    color: rgb(80, 80, 80);
-    font-weight: normal;
+.resume-body {
+    .content-aside h3 {
+        margin-bottom: 2px;
+        margin-top: 2px;
+        font-size: var(--h3-aside);
+        color: rgb(80, 80, 80);
+        font-weight: normal;
+    }
+
+    h3 {
+        margin-bottom: 2px;
+        margin-top: 2px;
+        font-size: var(--h3);
+        color: rgb(80, 80, 80);
+        font-weight: normal;
+    }
 }
 
 .resume-body a {
@@ -224,6 +244,7 @@ body > .markdown-preview {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .resume-body .inline h2 {
@@ -258,7 +279,7 @@ body > .markdown-preview {
 }
 
 .resume-body .personnal-info{
-    margin-bottom: 8px !important;
+    // margin-bottom: 8px !important;
 }
 
 .resume-body .flex-list {
@@ -402,10 +423,19 @@ h3.project_date{
     .w80{ width: 80%; }
     .w10{ width: 10%; }
     .w90{ width: 90%; }
-    &-1{ flex: 0 0 33%; }
-    &-3{ flex: 0 0 67%; }
+    // over 8
+    &-gs-1{ flex: 1; }
+    &-1{ flex: 0 0 13%; }
+    &-2{ flex: 0 0 25%; }
+    &-3{ flex: 0 0 38%; }
+    &-5{ flex: 0 0 63%; }
+    &-6{ flex: 0 0 75%; }
+    &-7{ flex: 0 0 88%; }
     &-full{ flex: 0 0 100%; }
     &-50{ flex: 0 0 50%;}
+    &-space-between{ 
+        justify-content: space-between;
+    }
 }
 
 .mr{
@@ -426,13 +456,10 @@ h3.project_date{
     width:100%;
     &-aside{
         margin-bottom: 0.77rem;
-        display:flex;
         width:100%;
         .info{
             display: flex;
-            p{
-                flex: 0 0 50%;
-            }
+            justify-content: space-between;
         }
         .icon{
             flex: 0 0 5%;

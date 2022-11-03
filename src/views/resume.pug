@@ -12,14 +12,14 @@ html
     main.resume-body
         header.center.flex-full
             div.inline
-                div.left-header.flex-3
+                div.left-header
                     div(id="name")  
                         span.light= $t.me.first_name
                         span.bold= $t.me.last_name
                     h2.colorized(id="status")= $t.me.status
                     h3(id="address")= $t.me.address
 
-                .personnal-info.flex-list.right-header.flex-1
+                .personnal-info.flex-list.right-header
                     ul 
                         each item in $t.info
                             +info-item(item)
@@ -33,7 +33,7 @@ html
         //-     each item in $t.education 
         //-         +education-item(item)
     
-        div.flex-3.section(id="experiences")
+        div.flex-5.section(id="experiences")
             h1 
                 span.colorized= $t.sub.experiences.substr(0,3)
                 = $t.sub.experiences.substr(3)
@@ -48,7 +48,7 @@ html
                     +publication-item(item)    
 
         //- if $localeName == "en_EN"
-        div.flex-1(id="right-panel")
+        div.flex-gs-1(id="right-panel")
             div.section
                 h1 
                     span.colorized= $t.sub.education.substr(0,3)
