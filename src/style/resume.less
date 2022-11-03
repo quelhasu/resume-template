@@ -1,7 +1,7 @@
 :root {
     --primary: #0281CB;
     --color: #404040;
-    --name: 20pt;
+    --name: 2.3rem;
     --h1: 1rem;
     --h2: 0.9rem;
     --h3: 0.8rem;
@@ -18,7 +18,7 @@
     }
     body{
         margin: 1em 1.5em;
-        zoom: .98;
+        zoom: .99;
     }
     .resume-body {
         // padding: 1em 3em 0 3em !important; // min-width: 200px ;
@@ -61,7 +61,7 @@ body > .markdown-preview {
     // margin: 5px 0 4px 0;
     margin: 1% 0;
     font-weight: 300;
-    font-size: 0.75rem;
+    font-size: 1.2rem;
 }
 
 .resume-body #address {
@@ -69,21 +69,22 @@ body > .markdown-preview {
     // margin: 1%;
     margin-top:1%;
     font-style: italic;
+    font-size: 0.7rem;
 }
 
 .resume-body #name {
-    letter-spacing: .1rem;
+    letter-spacing: .2rem;
     margin-top: 0;
     margin-bottom: 0;
     font-size: var(--name);
+    color: rgb(80, 80, 80);
 
     .light{
-        font-weight: lighter;
+        font-weight: 300;
     }
 
     .bold{
-        font-weight: bold;
-        color: rgb(80, 80, 80);
+        font-weight: 900;
     }
 }
 
@@ -226,7 +227,7 @@ body > .markdown-preview {
 }
 
 .resume-body .inline h2 {
-    width: 25%;
+    // width: 25%;
     font-size: var(--h2);
 }
 
@@ -282,6 +283,8 @@ body > .markdown-preview {
     margin: 5px;
     list-style: none;
     border-left: 1px solid rgba(0,0,0,.08);
+    padding-left:1rem;
+    padding-top: 0.5rem;
 }
 
 .resume-body hr {
@@ -294,14 +297,22 @@ body > .markdown-preview {
 .resume-body .flex-list li {
     flex-grow: 1;
     flex-basis: auto;
-    margin: .5em 0;
+    // margin: .5em 0;
     padding: 0 1em;
     // text-align: center;
     // border-left: 1px solid #ccc;
     background-color: #fff;
-
+    
     &:first-child{
         border: 0;
+    }
+    
+    i{
+        color: #4f4f4f;
+        text-align:center;
+        margin-right: 0.5rem;
+        width: 1.25em;
+        vertical-align: -0.225em;
     }
 }
 

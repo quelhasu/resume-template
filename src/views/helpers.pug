@@ -1,6 +1,6 @@
 mixin info-item(info)
-      li 
-        i(class=info.fa)
+      li.mb-2 
+        i.fa-2x(class=info.fa)
         if info.href
           a(href=info.href target="_blank") #{info.value}
         else 
@@ -62,13 +62,6 @@ mixin education-item(item)
       h2
         i(class="fa fa-university mr-2 mb-1 fa-icon")
         =item.title
-      if item.secondary
-        h3.secondary= item.secondary
-      h3.uppercase= item.type
-      //- .flex-list-education
-      //-   ul
-      //-     each educ in item.list
-      //-       +content-list(educ)
       .info
         p
           i(class="fa fa-map-marker-alt mr-2 mb-1 fa-icon")
@@ -76,6 +69,13 @@ mixin education-item(item)
         p
           i(class="fa fa-calendar-alt mr-2 mb-1 fa-icon")
           = item.year
+      if item.secondary
+        h3.secondary= item.secondary
+      h3.uppercase= item.type
+      //- .flex-list-education
+      //-   ul
+      //-     each educ in item.list
+      //-       +content-list(educ)
     
 
 mixin project-item(item)

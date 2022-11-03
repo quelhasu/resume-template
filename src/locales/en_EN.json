@@ -14,26 +14,26 @@
     "last_name": "QUELHAS",
     "status": "Data Engineer @Comet",
     "address": "Versailles, 78000 - France",
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse luctus, diam tempus consectetur ultricies, urna augue maximus est, id ultricies metus neque et sapien. Vestibulum venenatis, libero eu ornare sollicitudin, neque lacus gravida nisl, sit amet sollicitudin dui leo ut turpis. Nam lacinia dignissim gravida. Fusce et condimentum elit. "
+    "summary": "Graduated from a French Engineering school specialized in data during my final year at the Politecnico di Milano, I would like to bring my skills into practice by merging the world of the data science and the software engineering. Communication, transversality, production, teamwork and sharing are some of my primary objectives to progress daily in my work."
   },
   "info": [
     {
-      "fa": "fas fa-mobile-alt",
-      "value": " (+33) 6 23 74 80 96"
+      "fa": "fas fa-phone-square",
+      "value": "(+33) 6 23 74 80 96"
     },
     {
-      "fa": "fas fa-envelope",
-      "value": " ugo.quelhas@edu.devinci.fr",
-      "href": "mailto:ugo.quelhas@edu.devinci.fr"
+      "fa": "fas fa-envelope-open-text",
+      "value": "uquelhas@gmail.com",
+      "href": "mailto:uquelhas@gmail.com"
     },
     {
       "fa": "fab fa-github",
-      "value": " @quelhasu",
+      "value": "@quelhasu",
       "href": "https://github.com/quelhasu"
     },
     {
-      "fa": "fab fa-linkedin",
-      "value": " quelhasugo",
+      "fa": "fab fa-linkedin-in",
+      "value": "quelhasugo",
       "href": "https://www.linkedin.com/in/quelhasugo/"
     }
   ],
@@ -223,7 +223,7 @@
         { "title": "Development of an admin dashboard to manage processes and monitor databases."},
         { "title": "Virtualization of micro services in Docker to facilitate reuse in other contexts."}
       ],
-      "stack": ["MySQL", "Neo4j", "Java Spring Boot", "Maven", "Javascript", "React", "Leaflet", "Git"],
+      "stack": ["MySQL", "Neo4j", "Java Spring Boot", "Maven", "Javascript", "React", "Git"],
       "logo": "https://media-exp1.licdn.com/dms/image/C560BAQF-W57PygYhVw/company-logo_100_100/0/1599056486136?e=1675296000&v=beta&t=Ci8CNxBk8NpY3eqdRmTnPtFu0ezktUAgCyTMZKYIjV0"
     },
     {

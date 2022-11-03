@@ -14,26 +14,26 @@
     "last_name": "QUELHAS",
     "status": "Data Engineer @Comet",
     "address": "Versailles, 78000 - France",
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse luctus, diam tempus consectetur ultricies, urna augue maximus est, id ultricies metus neque et sapien. Vestibulum venenatis, libero eu ornare sollicitudin, neque lacus gravida nisl, sit amet sollicitudin dui leo ut turpis. Nam lacinia dignissim gravida. Fusce et condimentum elit. "
+    "summary": "Diplômé d’une école d’ingénieur spécialisé dans la data durant ma dernière année à Politecnico di Milano, je souhaite mettre mes compétences en pratique en alliant le monde de la science des données et du génie logiciel. La communication, la transversalité, la production, le travail d’équipe et le partage sont quelques-uns de mes principaux objectifs pour progresser quotidiennement dans mon travail."
   },
   "info": [
     {
-      "fa": "fas fa-mobile-alt",
-      "value": " (+33) 6 23 74 80 96"
+      "fa": "fas fa-phone-square",
+      "value": "(+33) 6 23 74 80 96"
     },
     {
-      "fa": "fas fa-envelope",
-      "value": " ugo.quelhas@edu.devinci.fr",
-      "href": "mailto:ugo.quelhas@edu.devinci.fr"
+      "fa": "fas fa-envelope-open-text",
+      "value": "uquelhas@gmail.com",
+      "href": "mailto:uquelhas@gmail.com"
     },
     {
       "fa": "fab fa-github",
-      "value": " @quelhasu",
+      "value": "@quelhasu",
       "href": "https://github.com/quelhasu"
     },
     {
-      "fa": "fab fa-linkedin",
-      "value": " quelhasugo",
+      "fa": "fab fa-linkedin-in",
+      "value": "quelhasugo",
       "href": "https://www.linkedin.com/in/quelhasugo/"
     }
   ],
@@ -145,7 +145,7 @@
         { "title": "Développement d'un dashboard admin pour gérer les processus et monitorer les bases de données."},
         { "title": "Virtualisation des micro services dans Docker pour faciliter la réutilisation dans d'autres contextes."}
       ],
-      "stack": ["MySQL", "Neo4j", "Java Spring Boot", "Maven", "Javascript", "React", "Leaflet", "Git"],
+      "stack": ["MySQL", "Neo4j", "Java Spring Boot", "Maven", "Javascript", "React", "Git"],
       "logo": "https://media-exp1.licdn.com/dms/image/C560BAQF-W57PygYhVw/company-logo_100_100/0/1599056486136?e=1675296000&v=beta&t=Ci8CNxBk8NpY3eqdRmTnPtFu0ezktUAgCyTMZKYIjV0"
     },
     {

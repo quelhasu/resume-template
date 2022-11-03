@@ -13,11 +13,11 @@ html
         header.center.flex-full
             div.inline
                 div.left-header.flex-3
-                    p(id="name")  
+                    div(id="name")  
                         span.light= $t.me.first_name
                         span.bold= $t.me.last_name
-                    h3.colorized(id="status")= $t.me.status
-                    p(id="address")= $t.me.address
+                    h2.colorized(id="status")= $t.me.status
+                    h3(id="address")= $t.me.address
 
                 .personnal-info.flex-list.right-header.flex-1
                     ul 
